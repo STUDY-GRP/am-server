@@ -1,2 +1,9 @@
 # 無視ファイルリスト
-node_modules
+# ファイル
+.DS_Store
+
+# ディレクトリ
+/node_modules
+
+# ワイルドカード
+*.log
