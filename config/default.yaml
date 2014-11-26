@@ -1,0 +1,15 @@
+# サーバー設定
+server:
+  port:     3003
+# ログ出力設定
+log:
+  logLevel: "ALL" # ALL / TRACE / DEBUG / INFO / WARN / ERROR / FATAL / OFF
+  configure:
+    appenders:
+      -
+        type: "dateFile"
+        category: "system"
+        filename: "log/am-server.log"
+        pattern : "-yyyy-MM-dd"
+      -
+        type: "console"  
