@@ -1,7 +1,7 @@
 express = require("express")
 router  = express.Router()
 
-# WebAPI GET. 
+# WebAPI POST. 
 router.post "/", (req, res) ->
   result =
     header:

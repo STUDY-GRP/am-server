@@ -1,14 +1,15 @@
 express = require("express")
 router  = express.Router()
 
-# WebAPI POST. 
-router.post "/", (req, res) ->
+# WebAPI GET. 
+router.get "/:id/:year/:month", (req, res) ->
   result =
     header:
       error: 
         code: 'Success'
         message: ''
     body: null
+
   res.json 200, result  
   return
 
