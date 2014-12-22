@@ -1,9 +1,0 @@
-[2014-12-06 23:52:13.443] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
-[2014-12-06 23:55:51.363] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
-[2014-12-06 23:56:05.918] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 194 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
-[2014-12-06 23:56:30.019] [INFO] application - 404 Not Found
-[2014-12-06 23:56:30.049] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_tokenvvv HTTP/1.1" 404 160 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
-[2014-12-06 23:57:38.347] [DEBUG] application - asdfsfas
-[2014-12-06 23:58:14.298] [INFO] application - called /access_token
-[2014-12-06 23:58:14.299] [DEBUG] application - called LogicFactory#makeLogic.
-[2014-12-06 23:58:14.763] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 197 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
