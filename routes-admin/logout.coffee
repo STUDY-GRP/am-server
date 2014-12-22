@@ -1,16 +1,22 @@
-express = require("express")
+express = require 'express'
+LogicFactory  = require '../logics/admin-logics/logic-factory'
 router  = express.Router()
 
-# WebAPI POST. 
-router.post "/", (req, res) ->
-  result =
-    header:
-      error: 
-        code: 'Success'
-        message: ''
-    body: null
+# ログアウトルート(GET Request)
+#
+router.get "/", (req, res) ->
+  logger = module.parent.exports.set("Logger")
 
-  res.json 200, result  
-  return
+  logger.info '[router - logout] called /logout'
+
+  logicfactory =  new LogicFactory(logger)
+
+  # ロジックの作成
+  myLogic = logicfactory.makeLogic 'logout-logic'
+  # ロジックの実行
+  myLogic.logicExecute req, (httpStatus, resData) ->
+    logger.debug "[auth] httpStatus: #{httpStatus}, response: #{resData}"
+    myLogic.dispose()
+    return res.status(httpStatus).send resData
 
 module.exports = router

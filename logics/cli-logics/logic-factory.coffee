@@ -2,14 +2,28 @@ AuthLogic           = require './auth-logic'
 AttendanceTimeLogic = require './attendance-time-logic'
 QuittingTimeLogic   = require './quitting-time-logic'
 
+# クライアント機能ロジックファクトリクラス
+#
 class LogicFactory
-	constructor: (@_logger) ->
-		@_logger.debug 'LogicFactory#constructor'
-	makeLogic: (logicname) ->
-		@_logger.debug "LogicFactory#makeLogic"
-		switch logicname
-			when 'auth-logic' then new AuthLogic(@_logger)
-			when 'attendance-time-logic' then AttendanceTimeLogic(@_logger)
-			when 'quitting-time-logic' then QuittingTimeLogic(@_logger)
+
+  # LogicFactory生成するコンストラクタ
+  #
+  # @param [Object] _logger Log4jsログオブジェクト
+  #
+  constructor: (@_logger) ->
+    @_logger.debug 'LogicFactory#constructor'
+
+  # ロジックを生成する
+  #
+  # @param [String] logicname ロジック名
+  # @return ロジッククラスのインスタンス
+  #
+  makeLogic: (logicname) ->
+    @_logger.debug "LogicFactory#makeLogic"
+    switch logicname
+      when 'auth-logic' then new AuthLogic(@_logger)
+      when 'attendance-time-logic' then new AttendanceTimeLogic(@_logger)
+      when 'quitting-time-logic' then new QuittingTimeLogic(@_logger)
+
 module.exports = LogicFactory
 			

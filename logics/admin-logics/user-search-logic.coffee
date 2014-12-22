@@ -1,27 +1,23 @@
-_             = require 'underscore'
-RESULTCD      = require '../../commonLibs/result-code'
-BaseLogic     = require '../../commonLibs/base-logic'
-DutyTimeModel = require '../../models/duty-time-model'
-Async         = require 'async'
-xDate         = require 'xdate'
+_         = require 'underscore'
+RESULTCD  = require '../../commonLibs/result-code'
+BaseLogic = require '../../commonLibs/base-logic'
+Async     = require 'async'
+UserModel = require '../../models/user-model'
 
-# 勤務表取得ロジッククラス
+# ユーザー検索ロジッククラス
 #
-class AttendanceLogic extends BaseLogic
+class UserSearchLogic extends BaseLogic
+  # 取得上限件数
+  _limit  = 0
+  # 取得開始位置
+  _offset = 0
 
-  # ユーザーID
-  _userid = null
-  # 年
-  _year = null
-  # 月
-  _month = null
-
-  # AttendanceLogic生成するコンストラクタ
+  # UserSearchLogic生成するコンストラクタ
   #
   # @param [Object] _logger Log4jsログオブジェクト
   #
   constructor: (logger) ->
-    logger.debug 'AttendanceLogic#constructor'
+    logger.debug 'UserSearchLogic#constructor'
     super logger
 
   # 入力パラメータの妥当性をチェックする 。
@@ -33,41 +29,41 @@ class AttendanceLogic extends BaseLogic
   #          エラーでない場合、null
   # 
   validate: (request, callback) ->
-    @_logger.debug 'AttendanceLogic#validate'
+    @_logger.debug 'UserSearchLogic#validate'
     #入力パラメータのチェック
-    userid  = request.params.id
-    year    = request.params.year
-    month   = request.params.month
-    # ユーザーIDの未入力チェック
-    if _.isEmpty userid
-      @_logger.debug 'id parameter is empty.'
+    limit  = request.query.limit
+    offset = request.query.offset
+    # 上限値の未入力チェック
+    if _.isEmpty limit
+      @_logger.debug 'limit parameter is empty.'
       return callback RESULTCD.PE0004, null
-    # 年の未入力チェック
-    if _.isEmpty year
-      @_logger.debug 'year parameter is empty.'
-      return callback RESULTCD.PE0004, null
-    # 月の未入力チェック
-    if _.isEmpty month
-      @_logger.debug 'month parameter is empty.'
+    # 取得位置の未入力チェック
+    if _.isEmpty offset
+      @_logger.debug 'offset parameter is empty.'
       return callback RESULTCD.PE0004, null
 
-    # ユーザーIDの有効文字チェック
-    unless /^[a-zA-Z0-9]+$/.test userid
-      @_logger.debug 'userid is invalid.'
-      return callback RESULTCD.PE0004, null
-    # 西暦年の有効文字チェック
-    unless /^\d{4}$/.test year
-      @_logger.debug 'year is invalid.'
-      return callback RESULTCD.PE0004, null
-    # 月の有効文字チェック
-    unless /^(0[1-9]|1[0-2])$/.test month
-      @_logger.debug 'month is invalid.'
+    # 上限値の数値チェック以外
+    unless /^\d+$/.test limit
+      @_logger.debug 'limit is not numeric.'
       return callback RESULTCD.PE0004, null
 
-    @_userid = userid
-    @_year  = Number year
-    @_month = Number month
-
+    # 取得位置の数値チェック
+    unless /^\d+$/.test offset
+      @_logger.debug 'offset is not numeric.'
+      return callback RESULTCD.PE0004, null
+    
+    limit  = Number limit
+    offset = Number offset
+    # 上限値の入力範囲チェック
+    if limit <= 0
+      @_logger.debug 'limit is too small.(limit > 0)'
+      return callback RESULTCD.PE0004, null
+    # 取得位置の数値チェック
+    if offset < 0
+      @_logger.debug 'offset is too small.(offset >= 0)'
+      return callback RESULTCD.PE0004, null
+    @_limit  = limit
+    @_offset = offset
     # Cookieの取得
     cookie = @getCookie()
     if cookie.length <= 0
@@ -103,30 +99,30 @@ class AttendanceLogic extends BaseLogic
   #   第2引数 レスポンスに渡すデータ
   #
   execute: (request, callback) ->
-    @_logger.debug 'AttendanceLogic#execute'
-
-    fromdate = xDate @_year, @_month - 1, 1
-    enddate  = xDate @_year, @_month, 1
-
-    fromYmd = fromdate.toString 'yyyy-MM-dd'
-    endYmd  = enddate.toString 'yyyy-MM-dd'
-
+    @_logger.debug 'UserSearchLogic#execute'
     db = @getDBManager()
     db.open (err, client) =>
       if err
         @_logger.debug 'db open failed.'
         return callback RESULTCD.DB0001, null
-      dutyTimeModel = new DutyTimeModel(db, @_logger)
-      
-      dutyTimeModel.search @_userid, fromYmd, endYmd, (err, dutyTimelist) =>
+      userModel = new UserModel(db, @_logger)
+      Async.parallel [
+        (asyncCallback) =>
+          userModel.count (err, count) =>
+            @_logger.debug "user count: #{count}"
+            asyncCallback err, count
+        , (asyncCallback) =>
+          userModel.searchUsers @_offset, @_limit, (err, users) =>
+            @_logger.debug "users: #{users}"
+            asyncCallback err, users
+      ], (err, asyncResult) =>
         if err
           @_logger.debug "err: #{err}"
           return callback RESULTCD.FAILED, null
-        data =
-          year: @_year
-          month: @_month
-          list: dutyTimelist
+        data = 
+          count: asyncResult[0]
+          result: asyncResult[1]
         return callback RESULTCD.OK, data
 
-module.exports = AttendanceLogic
+module.exports = UserSearchLogic
 

@@ -1,15 +1,22 @@
-express = require("express")
-router  = express.Router()
+express      = require 'express'
+LogicFactory = require '../logics/cli-logics/logic-factory'
+router       = express.Router()
 
-# WebAPI POST. 
+# 出社時間登録ルート(POST Request)
+#
 router.post "/", (req, res) ->
-  result =
-    header:
-      error: 
-        code: 'Success'
-        message: ''
-    body: null
-  res.json 200, result  
-  return
+  logger = module.parent.exports.set("Logger")
+
+  logger.info '[router - attendance-time] called /attendance_time'
+
+  logicfactory = new LogicFactory(logger)
+
+  # ロジックの作成
+  myLogic = logicfactory.makeLogic 'attendance-time-logic'
+  # ロジックの実行
+  myLogic.logicExecute req, (httpStatus, resData) ->
+    logger.debug "[attendance-time] httpStatus: #{httpStatus}, response: #{resData}"
+    myLogic.dispose()
+    return res.status(httpStatus).send resData
 
 module.exports = router

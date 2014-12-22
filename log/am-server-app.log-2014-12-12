@@ -1,0 +1,980 @@
+[2014-12-11 23:45:39.705] [INFO] application - [router - auth] called /access_token
+[2014-12-11 23:45:39.707] [DEBUG] application - LogicFactory#constructor
+[2014-12-11 23:45:39.707] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-11 23:45:39.708] [DEBUG] application - AutLogic#constructor
+[2014-12-11 23:45:39.708] [DEBUG] application - BaseLogic#constructor
+[2014-12-11 23:45:39.708] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-11 23:45:39.708] [DEBUG] application - ResponseData#constructor
+[2014-12-11 23:45:39.708] [DEBUG] application - AuthLogic#validate
+[2014-12-11 23:45:39.708] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-11 23:45:39.710] [DEBUG] application - AuthManager#constructor
+[2014-12-11 23:45:40.242] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 179 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-11 23:57:54.031] [INFO] application - [router - auth] called /access_token
+[2014-12-11 23:57:54.033] [DEBUG] application - LogicFactory#constructor
+[2014-12-11 23:57:54.033] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-11 23:57:54.034] [DEBUG] application - AutLogic#constructor
+[2014-12-11 23:57:54.035] [DEBUG] application - BaseLogic#constructor
+[2014-12-11 23:57:54.035] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-11 23:57:54.035] [DEBUG] application - ResponseData#constructor
+[2014-12-11 23:57:54.035] [DEBUG] application - AuthLogic#validate
+[2014-12-11 23:57:54.035] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-11 23:57:54.037] [DEBUG] application - AuthManager#constructor
+[2014-12-11 23:57:54.038] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-11 23:57:54.038] [DEBUG] application - Authorization: user01:password
+[2014-12-11 23:57:54.442] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 190 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-11 23:59:58.885] [INFO] application - [router - auth] called /access_token
+[2014-12-11 23:59:58.886] [DEBUG] application - LogicFactory#constructor
+[2014-12-11 23:59:58.887] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-11 23:59:58.887] [DEBUG] application - AutLogic#constructor
+[2014-12-11 23:59:58.888] [DEBUG] application - BaseLogic#constructor
+[2014-12-11 23:59:58.888] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-11 23:59:58.888] [DEBUG] application - ResponseData#constructor
+[2014-12-11 23:59:58.888] [DEBUG] application - AuthLogic#validate
+[2014-12-11 23:59:58.890] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-11 23:59:58.890] [DEBUG] application - AuthManager#constructor
+[2014-12-11 23:59:58.890] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-11 23:59:58.890] [DEBUG] application - Authorization: user01:password
+[2014-12-11 23:59:58.891] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-11 23:59:59.249] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 190 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:00:43.750] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:00:43.751] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:00:43.751] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:00:43.752] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:00:43.752] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:00:43.752] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:00:43.753] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:00:43.753] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:00:43.754] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:00:43.754] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:00:43.755] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:00:43.755] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:00:43.755] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:00:43.755] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:00:44.122] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 175 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:04:23.979] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:04:23.981] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:04:23.981] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:04:23.982] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:04:23.982] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:04:23.983] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:04:23.983] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:04:23.983] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:04:23.984] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:04:23.984] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:04:23.985] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:04:23.985] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:04:23.985] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:04:23.985] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:04:23.985] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:04:24.335] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 175 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:04:59.428] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:04:59.429] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:04:59.430] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:04:59.430] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:04:59.431] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:04:59.431] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:04:59.431] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:04:59.432] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:04:59.433] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:04:59.433] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:04:59.434] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:04:59.434] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:04:59.434] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:04:59.435] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:04:59.435] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:04:59.435] [DEBUG] application - null
+[2014-12-12 00:04:59.436] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:04:59.800] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 175 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:05:31.345] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:05:31.347] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:05:31.347] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:05:31.348] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:05:31.348] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:05:31.348] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:05:31.349] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:05:31.349] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:05:31.350] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:05:31.351] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:05:31.351] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:05:31.351] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:05:31.351] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:05:31.351] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:05:31.352] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:05:31.352] [DEBUG] application - null
+[2014-12-12 00:05:31.353] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:05:31.806] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 188 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:06:06.684] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:06:06.686] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:06:06.686] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:06:06.687] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:06:06.688] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:06:06.688] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:06:06.688] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:06:06.689] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:06:06.690] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:06:06.690] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:06:06.690] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:06:06.691] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:06:06.691] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:06:06.691] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:06:06.691] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:06:06.692] [DEBUG] application - null
+[2014-12-12 00:06:06.693] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:06:06.693] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:06:06.693] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:06:06.693] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:06:06.694] [DEBUG] application - DBManager#open
+[2014-12-12 00:09:20.856] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:09:20.858] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:09:20.858] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:09:20.859] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:09:20.860] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:09:20.860] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:09:20.860] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:09:20.860] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:09:20.860] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:09:20.860] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:09:20.861] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:09:20.861] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:09:20.861] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:09:20.861] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:09:20.863] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:09:20.863] [DEBUG] application - null
+[2014-12-12 00:09:20.864] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:09:20.864] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:09:20.864] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:09:20.865] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:09:20.865] [DEBUG] application - DBManager#open
+[2014-12-12 00:09:20.877] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:11:16.033] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:11:16.034] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:11:16.035] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:11:16.036] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:11:16.036] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:11:16.037] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:11:16.037] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:11:16.037] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:11:16.037] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:11:16.038] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:11:16.038] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:11:16.038] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:11:16.038] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:11:16.038] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:11:16.040] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:11:16.040] [DEBUG] application - null
+[2014-12-12 00:11:16.042] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:11:16.042] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:11:16.042] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:11:16.042] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:11:16.042] [DEBUG] application - DBManager#open
+[2014-12-12 00:11:16.056] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:11:39.917] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:11:39.919] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:11:39.919] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:11:39.920] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:11:39.920] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:11:39.921] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:11:39.921] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:11:39.921] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:11:39.921] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:11:39.922] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:11:39.922] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:11:39.922] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:11:39.923] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:11:39.923] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:11:39.925] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:11:39.925] [DEBUG] application - null
+[2014-12-12 00:11:39.926] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:11:39.926] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:11:39.926] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:11:39.927] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:11:39.927] [DEBUG] application - DBManager#open
+[2014-12-12 00:11:39.940] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:13:45.242] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:13:45.244] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:13:45.244] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:13:45.245] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:13:45.245] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:13:45.246] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:13:45.246] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:13:45.246] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:13:45.246] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:13:45.247] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:13:45.247] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:13:45.247] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:13:45.247] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:13:45.248] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:13:45.249] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:13:45.249] [DEBUG] application - null
+[2014-12-12 00:13:45.251] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:13:45.251] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:13:45.251] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:13:45.251] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:13:45.251] [DEBUG] application - DBManager#open
+[2014-12-12 00:13:45.272] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:14:32.267] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:14:32.269] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:14:32.269] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:14:32.270] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:14:32.270] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:14:32.270] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:14:32.270] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:14:32.270] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:14:32.271] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:14:32.271] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:14:32.271] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:14:32.271] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:14:32.271] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:14:32.271] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:14:32.273] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:14:32.273] [DEBUG] application - null
+[2014-12-12 00:14:32.274] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:14:32.274] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:14:32.274] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:14:32.274] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:14:32.274] [DEBUG] application - DBManager#open
+[2014-12-12 00:14:32.287] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:14:53.736] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:14:53.738] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:14:53.739] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:14:53.742] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:14:53.745] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:14:53.746] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:14:53.749] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:14:53.751] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:14:53.753] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:14:53.754] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:14:53.757] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:14:53.758] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:14:53.758] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:14:53.758] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:14:53.760] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:14:53.761] [DEBUG] application - null
+[2014-12-12 00:14:53.763] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:14:53.764] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:14:53.764] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:14:53.764] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:14:53.764] [DEBUG] application - DBManager#open
+[2014-12-12 00:14:53.776] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:20:17.709] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:20:17.711] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:20:17.712] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:20:17.713] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:20:17.713] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:20:17.713] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:20:17.713] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:20:17.714] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:20:17.714] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:20:17.714] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:20:17.714] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:20:17.715] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:20:17.715] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:20:17.715] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:20:17.717] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:20:17.717] [DEBUG] application - null
+[2014-12-12 00:20:17.718] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:20:17.718] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:20:17.719] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:20:17.719] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:20:17.719] [DEBUG] application - DBManager#open
+[2014-12-12 00:20:17.733] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:23:25.618] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:23:25.619] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:23:25.620] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:23:25.621] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:23:25.621] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:23:25.621] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:23:25.622] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:23:25.622] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:23:25.622] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:23:25.622] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:23:25.623] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:23:25.623] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:23:25.623] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:23:25.623] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:23:25.625] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:23:25.626] [DEBUG] application - null
+[2014-12-12 00:23:25.627] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:23:25.627] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:23:25.691] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:23:25.691] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:23:25.692] [DEBUG] application - DBManager#open
+[2014-12-12 00:23:25.704] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:24:10.922] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:24:10.923] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:24:10.924] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:24:10.925] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:24:10.925] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:24:10.925] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:24:10.926] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:24:10.926] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:24:10.926] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:24:10.926] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:24:10.927] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:24:10.927] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:24:10.927] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:24:10.929] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:24:10.929] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:24:10.929] [DEBUG] application - null
+[2014-12-12 00:24:10.931] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:24:10.931] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:24:10.931] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:24:10.931] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:24:10.931] [DEBUG] application - DBManager#open
+[2014-12-12 00:24:10.941] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:24:43.143] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:24:43.144] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:24:43.145] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:24:43.145] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:24:43.146] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:24:43.146] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:24:43.146] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:24:43.146] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:24:43.147] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:24:43.147] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:24:43.147] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:24:43.147] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:24:43.147] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:24:43.149] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:24:43.149] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:24:43.149] [DEBUG] application - null
+[2014-12-12 00:24:43.150] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:24:43.151] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:24:43.151] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:24:43.151] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:24:43.151] [DEBUG] application - DBManager#open
+[2014-12-12 00:24:43.163] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:24:43.164] [DEBUG] application - create UserModel object.
+[2014-12-12 00:24:43.164] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:24:43.165] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:24:43.165] [DEBUG] application - DBManager#execute
+[2014-12-12 00:24:43.166] [DEBUG] application - [object Object]
+[2014-12-12 00:24:43.171] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:24:43.171] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:24:43.171] [DEBUG] application - null
+[2014-12-12 00:24:43.172] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:24:43.173] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:24:43.173] [DEBUG] application - DBManager#close
+[2014-12-12 00:24:43.181] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:32:52.580] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:32:52.581] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:32:52.582] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:32:52.582] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:32:52.583] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:32:52.583] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:32:52.583] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:32:52.584] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:32:52.584] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:32:52.584] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:32:52.584] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:32:52.585] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:32:52.586] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:32:52.586] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:32:52.587] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:32:52.587] [DEBUG] application - null
+[2014-12-12 00:32:52.588] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:32:52.588] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:32:52.588] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:32:52.589] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:32:52.589] [DEBUG] application - DBManager#open
+[2014-12-12 00:32:52.599] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:32:52.600] [DEBUG] application - create UserModel object.
+[2014-12-12 00:32:52.600] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:32:52.600] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:32:52.600] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1AND delete_flg = '0'
+[2014-12-12 00:32:52.601] [DEBUG] application - parameter: #{userid}
+[2014-12-12 00:32:52.601] [DEBUG] application - DBManager#execute
+[2014-12-12 00:32:52.601] [DEBUG] application - [object Object]
+[2014-12-12 00:32:52.605] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:32:52.606] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:32:52.606] [DEBUG] application - null
+[2014-12-12 00:32:52.606] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:32:52.607] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:32:52.608] [DEBUG] application - DBManager#close
+[2014-12-12 00:32:52.613] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:33:48.170] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:33:48.171] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:33:48.172] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:33:48.173] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:33:48.173] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:33:48.173] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:33:48.173] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:33:48.173] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:33:48.174] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:33:48.174] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:33:48.174] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:33:48.174] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:33:48.175] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:33:48.176] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:33:48.176] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:33:48.177] [DEBUG] application - null
+[2014-12-12 00:33:48.177] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:33:48.177] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:33:48.178] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:33:48.178] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:33:48.178] [DEBUG] application - DBManager#open
+[2014-12-12 00:33:48.188] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:33:48.189] [DEBUG] application - create UserModel object.
+[2014-12-12 00:33:48.189] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:33:48.189] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:33:48.189] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:33:48.189] [DEBUG] application - parameter: #{userid}
+[2014-12-12 00:33:48.190] [DEBUG] application - DBManager#execute
+[2014-12-12 00:33:48.190] [DEBUG] application - [object Object]
+[2014-12-12 00:33:48.194] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:33:48.195] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:33:48.195] [DEBUG] application - null
+[2014-12-12 00:33:48.195] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:33:48.196] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:33:48.197] [DEBUG] application - DBManager#close
+[2014-12-12 00:33:48.202] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:34:47.560] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:34:47.562] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:34:47.562] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:34:47.563] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:34:47.563] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:34:47.563] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:34:47.564] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:34:47.564] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:34:47.564] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:34:47.564] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:34:47.565] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:34:47.565] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:34:47.566] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:34:47.567] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:34:47.567] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:34:47.567] [DEBUG] application - null
+[2014-12-12 00:34:47.568] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:34:47.568] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:34:47.568] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:34:47.568] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:34:47.569] [DEBUG] application - DBManager#open
+[2014-12-12 00:34:47.578] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:34:47.579] [DEBUG] application - create UserModel object.
+[2014-12-12 00:34:47.579] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:34:47.580] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:34:47.580] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:34:47.580] [DEBUG] application - parameter: user01
+[2014-12-12 00:34:47.580] [DEBUG] application - DBManager#execute
+[2014-12-12 00:34:47.580] [DEBUG] application - [object Object]
+[2014-12-12 00:34:47.584] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:34:47.585] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:34:47.585] [DEBUG] application - null
+[2014-12-12 00:34:47.585] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:34:47.587] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:34:47.587] [DEBUG] application - DBManager#close
+[2014-12-12 00:34:47.592] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:37:45.069] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:37:45.071] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:37:45.072] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:37:45.073] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:37:45.073] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:37:45.074] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:37:45.074] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:37:45.074] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:37:45.074] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:37:45.075] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:37:45.075] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:37:45.075] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:37:45.077] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:37:45.078] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:37:45.078] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:37:45.078] [DEBUG] application - null
+[2014-12-12 00:37:45.079] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:37:45.079] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:37:45.080] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:37:45.080] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:37:45.080] [DEBUG] application - DBManager#open
+[2014-12-12 00:37:45.090] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:37:45.091] [DEBUG] application - create UserModel object.
+[2014-12-12 00:37:45.091] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:37:45.091] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:37:45.092] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:37:45.092] [DEBUG] application - parameter: user01
+[2014-12-12 00:37:45.092] [DEBUG] application - DBManager#execute
+[2014-12-12 00:37:45.092] [DEBUG] application - [object Object]
+[2014-12-12 00:39:06.747] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:39:06.749] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:39:06.749] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:39:06.750] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:39:06.750] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:39:06.751] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:39:06.751] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:39:06.751] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:39:06.751] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:39:06.752] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:39:06.752] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:39:06.752] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:39:06.754] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:39:06.754] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:39:06.754] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:39:06.754] [DEBUG] application - null
+[2014-12-12 00:39:06.755] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:39:06.755] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:39:06.756] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:39:06.756] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:39:06.756] [DEBUG] application - DBManager#open
+[2014-12-12 00:39:06.769] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:39:06.770] [DEBUG] application - create UserModel object.
+[2014-12-12 00:39:06.770] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:39:06.770] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:39:06.770] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:39:06.771] [DEBUG] application - parameter: user01
+[2014-12-12 00:39:06.771] [DEBUG] application - DBManager#execute
+[2014-12-12 00:39:06.771] [DEBUG] application - [object Object]
+[2014-12-12 00:39:33.805] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:39:33.806] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:39:33.807] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:39:33.808] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:39:33.808] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:39:33.808] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:39:33.808] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:39:33.809] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:39:33.809] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:39:33.809] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:39:33.809] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:39:33.810] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:39:33.811] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:39:33.811] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:39:33.811] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:39:33.812] [DEBUG] application - null
+[2014-12-12 00:39:33.813] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:39:33.813] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:39:33.813] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:39:33.813] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:39:33.813] [DEBUG] application - DBManager#open
+[2014-12-12 00:39:33.825] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:39:33.826] [DEBUG] application - create UserModel object.
+[2014-12-12 00:39:33.826] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:39:33.826] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:39:33.827] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:39:33.827] [DEBUG] application - parameter: user01
+[2014-12-12 00:39:33.827] [DEBUG] application - DBManager#execute
+[2014-12-12 00:39:33.827] [DEBUG] application - [object Object]
+[2014-12-12 00:41:04.987] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:41:04.989] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:41:04.989] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:41:04.990] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:41:04.990] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:41:04.991] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:41:04.991] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:41:04.991] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:41:04.992] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:41:04.992] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:41:04.992] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:41:04.993] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:41:04.994] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:41:04.994] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:41:04.995] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:41:04.995] [DEBUG] application - null
+[2014-12-12 00:41:04.996] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:41:04.996] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:41:04.996] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:41:04.996] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:41:04.997] [DEBUG] application - DBManager#open
+[2014-12-12 00:41:05.010] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:41:05.011] [DEBUG] application - create UserModel object.
+[2014-12-12 00:41:05.011] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:41:05.011] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:41:05.011] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:41:05.011] [DEBUG] application - parameter: user01
+[2014-12-12 00:41:05.012] [DEBUG] application - DBManager#execute
+[2014-12-12 00:41:05.012] [DEBUG] application - [object Object]
+[2014-12-12 00:41:42.089] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:41:42.090] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:41:42.091] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:41:42.092] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:41:42.092] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:41:42.093] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:41:42.093] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:41:42.093] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:41:42.093] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:41:42.094] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:41:42.094] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:41:42.094] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:41:42.096] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:41:42.096] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:41:42.096] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:41:42.097] [DEBUG] application - null
+[2014-12-12 00:41:42.098] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:41:42.098] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:41:42.098] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:41:42.098] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:41:42.099] [DEBUG] application - DBManager#open
+[2014-12-12 00:41:42.112] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:41:42.112] [DEBUG] application - create UserModel object.
+[2014-12-12 00:41:42.112] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:41:42.113] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:41:42.113] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:41:42.113] [DEBUG] application - parameter: user01
+[2014-12-12 00:41:42.113] [DEBUG] application - DBManager#execute
+[2014-12-12 00:41:42.113] [DEBUG] application - [object Object]
+[2014-12-12 00:41:42.117] [DEBUG] application - get user.
+[2014-12-12 00:41:42.118] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:41:42.118] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:41:42.118] [DEBUG] application - null
+[2014-12-12 00:41:42.119] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:41:42.120] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:41:42.121] [DEBUG] application - DBManager#close
+[2014-12-12 00:41:42.127] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:43:08.985] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:43:08.986] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:43:08.986] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:43:08.987] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:43:08.987] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:43:08.987] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:43:08.988] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:43:08.988] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:43:08.988] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:43:08.988] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:43:08.989] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:43:08.989] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:43:08.990] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:43:08.990] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:43:08.991] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:43:08.991] [DEBUG] application - null
+[2014-12-12 00:43:08.992] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:43:08.992] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:43:08.992] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:43:08.992] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:43:08.992] [DEBUG] application - DBManager#open
+[2014-12-12 00:43:09.002] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:43:09.003] [DEBUG] application - create UserModel object.
+[2014-12-12 00:43:09.003] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:43:09.004] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:43:09.004] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:43:09.004] [DEBUG] application - parameter: user01
+[2014-12-12 00:43:09.004] [DEBUG] application - DBManager#execute
+[2014-12-12 00:43:09.004] [DEBUG] application - [object Object]
+[2014-12-12 00:43:09.008] [DEBUG] application - get user.
+[2014-12-12 00:43:09.009] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:43:09.009] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:43:09.009] [DEBUG] application - null
+[2014-12-12 00:43:09.010] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:43:09.011] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:43:09.011] [DEBUG] application - DBManager#close
+[2014-12-12 00:43:09.016] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:44:35.877] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:44:35.879] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:44:35.879] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:44:35.881] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:44:35.881] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:44:35.881] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:44:35.881] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:44:35.882] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:44:35.882] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:44:35.882] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:44:35.882] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:44:35.883] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:44:35.884] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:44:35.885] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:44:35.885] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:44:35.885] [DEBUG] application - null
+[2014-12-12 00:44:35.887] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:44:35.887] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:44:35.887] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:44:35.888] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:44:35.888] [DEBUG] application - DBManager#open
+[2014-12-12 00:44:35.901] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:44:35.902] [DEBUG] application - create UserModel object.
+[2014-12-12 00:44:35.902] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:44:35.902] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:44:35.902] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:44:35.902] [DEBUG] application - parameter: user01
+[2014-12-12 00:44:35.903] [DEBUG] application - DBManager#execute
+[2014-12-12 00:44:35.903] [DEBUG] application - [object Object]
+[2014-12-12 00:44:35.908] [DEBUG] application - get user.
+[2014-12-12 00:44:35.908] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:44:35.909] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:44:35.909] [DEBUG] application - null
+[2014-12-12 00:44:35.909] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:44:35.911] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:44:35.911] [DEBUG] application - DBManager#close
+[2014-12-12 00:44:35.922] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:46:47.784] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:46:47.786] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:46:47.786] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:46:47.787] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:46:47.788] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:46:47.788] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:46:47.788] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:46:47.789] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:46:47.789] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:46:47.790] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:46:47.790] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:46:47.790] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:46:47.792] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:46:47.793] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:46:47.793] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:46:47.793] [DEBUG] application - null
+[2014-12-12 00:46:47.794] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:46:47.794] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:46:47.795] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:46:47.795] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:46:47.795] [DEBUG] application - DBManager#open
+[2014-12-12 00:46:47.805] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:46:47.806] [DEBUG] application - create UserModel object.
+[2014-12-12 00:46:47.806] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:46:47.807] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:46:47.807] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:46:47.807] [DEBUG] application - parameter: user01
+[2014-12-12 00:46:47.807] [DEBUG] application - DBManager#execute
+[2014-12-12 00:46:47.808] [DEBUG] application - [object Object]
+[2014-12-12 00:46:47.812] [DEBUG] application - get user.
+[2014-12-12 00:46:47.814] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:46:47.814] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:46:47.814] [DEBUG] application - null
+[2014-12-12 00:46:47.815] [DEBUG] application - { header: { errorcode: 'SYS1002', message: 'クエリ発行に失敗しました。' },
+  body: null }
+[2014-12-12 00:46:47.815] [DEBUG] application - [auth] httpStatus: 500, response: [object Object]
+[2014-12-12 00:46:47.815] [DEBUG] application - DBManager#close
+[2014-12-12 00:46:47.822] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 500 98 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:47:49.502] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:47:49.504] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:47:49.504] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:47:49.505] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:47:49.505] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:47:49.506] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:47:49.506] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:47:49.506] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:47:49.507] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:47:49.507] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:47:49.507] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:47:49.507] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:47:49.508] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:47:49.509] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:47:49.509] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:47:49.509] [DEBUG] application - null
+[2014-12-12 00:47:49.510] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:47:49.510] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:47:49.510] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:47:49.510] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:47:49.511] [DEBUG] application - DBManager#open
+[2014-12-12 00:47:49.521] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:47:49.521] [DEBUG] application - create UserModel object.
+[2014-12-12 00:47:49.522] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:47:49.522] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:47:49.522] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:47:49.522] [DEBUG] application - parameter: user01
+[2014-12-12 00:47:49.523] [DEBUG] application - DBManager#execute
+[2014-12-12 00:47:49.523] [DEBUG] application - [object Object]
+[2014-12-12 00:47:49.527] [DEBUG] application - get user.
+[2014-12-12 00:48:50.028] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:48:50.029] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:48:50.030] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:48:50.031] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:48:50.031] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:48:50.031] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:48:50.031] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:48:50.032] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:48:50.032] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:48:50.032] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:48:50.032] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:48:50.033] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:48:50.034] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:48:50.034] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:48:50.034] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:48:50.035] [DEBUG] application - null
+[2014-12-12 00:48:50.035] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:48:50.035] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:48:50.036] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:48:50.036] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:48:50.036] [DEBUG] application - DBManager#open
+[2014-12-12 00:48:50.048] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:48:50.049] [DEBUG] application - create UserModel object.
+[2014-12-12 00:48:50.049] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:48:50.050] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:48:50.050] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:48:50.050] [DEBUG] application - parameter: user01
+[2014-12-12 00:48:50.050] [DEBUG] application - DBManager#execute
+[2014-12-12 00:48:50.050] [DEBUG] application - [object Object]
+[2014-12-12 00:48:50.054] [DEBUG] application - get user.
+[2014-12-12 00:48:50.054] [DEBUG] application - get user success.
+[2014-12-12 00:48:50.055] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:48:50.055] [DEBUG] application - check password.
+[2014-12-12 00:49:27.752] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:49:27.754] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:49:27.755] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:49:27.756] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:49:27.756] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:49:27.757] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:49:27.757] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:49:27.758] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:49:27.758] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:49:27.759] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:49:27.759] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:49:27.760] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:49:27.762] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:49:27.762] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:49:27.762] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:49:27.762] [DEBUG] application - null
+[2014-12-12 00:49:27.763] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:49:27.763] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:49:27.764] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:49:27.764] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:49:27.765] [DEBUG] application - DBManager#open
+[2014-12-12 00:49:27.780] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:49:27.780] [DEBUG] application - create UserModel object.
+[2014-12-12 00:49:27.780] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:49:27.781] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:49:27.781] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:49:27.781] [DEBUG] application - parameter: user01
+[2014-12-12 00:49:27.781] [DEBUG] application - DBManager#execute
+[2014-12-12 00:49:27.781] [DEBUG] application - [object Object]
+[2014-12-12 00:49:27.786] [DEBUG] application - get user.
+[2014-12-12 00:49:27.786] [DEBUG] application - get user success.
+[2014-12-12 00:49:27.786] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:49:27.786] [DEBUG] application - check password.
+[2014-12-12 00:51:33.862] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:51:33.863] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:51:33.864] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:51:33.865] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:51:33.865] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:51:33.866] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:51:33.866] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:51:33.866] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:51:33.867] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:51:33.867] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:51:33.867] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:51:33.869] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:51:33.869] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:51:33.869] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:51:33.869] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:51:33.870] [DEBUG] application - null
+[2014-12-12 00:51:33.871] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:51:33.871] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:51:33.871] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:51:33.872] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:51:33.872] [DEBUG] application - DBManager#open
+[2014-12-12 00:51:33.883] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:51:33.884] [DEBUG] application - create UserModel object.
+[2014-12-12 00:51:33.884] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:51:33.885] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:51:33.885] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:51:33.885] [DEBUG] application - parameter: user01
+[2014-12-12 00:51:33.886] [DEBUG] application - DBManager#execute
+[2014-12-12 00:51:33.886] [DEBUG] application - [object Object]
+[2014-12-12 00:51:33.890] [DEBUG] application - get user.
+[2014-12-12 00:51:33.890] [DEBUG] application - get user success.
+[2014-12-12 00:51:33.890] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:51:33.890] [DEBUG] application - check password.
+[2014-12-12 00:51:33.891] [DEBUG] application - AuthManager#comparePassword
+[2014-12-12 00:51:55.934] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:51:55.936] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:51:55.936] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:51:55.937] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:51:55.938] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:51:55.938] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:51:55.938] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:51:55.938] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:51:55.939] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:51:55.939] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:51:55.939] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:51:55.941] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:51:55.941] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:51:55.941] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:51:55.942] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:51:55.942] [DEBUG] application - null
+[2014-12-12 00:51:55.943] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:51:55.943] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:51:55.943] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:51:55.944] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:51:55.944] [DEBUG] application - DBManager#open
+[2014-12-12 00:51:55.957] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:51:55.958] [DEBUG] application - create UserModel object.
+[2014-12-12 00:51:55.958] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:51:55.958] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:51:55.959] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:51:55.959] [DEBUG] application - parameter: user01
+[2014-12-12 00:51:55.959] [DEBUG] application - DBManager#execute
+[2014-12-12 00:51:55.959] [DEBUG] application - [object Object]
+[2014-12-12 00:51:55.964] [DEBUG] application - get user.
+[2014-12-12 00:51:55.964] [DEBUG] application - get user success.
+[2014-12-12 00:51:55.964] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:51:55.964] [DEBUG] application - check password.
+[2014-12-12 00:51:55.965] [DEBUG] application - AuthManager#comparePassword
+[2014-12-12 00:51:55.965] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-12 00:51:55.965] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-12 00:51:55.966] [DEBUG] application - password match.
+[2014-12-12 00:51:55.966] [DEBUG] application - create accesstoken.
+[2014-12-12 00:51:55.967] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-12 00:51:55.967] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: 127.0.0.1
+[2014-12-12 00:51:55.968] [DEBUG] application - DBManager#begin
+[2014-12-12 00:51:55.969] [DEBUG] application - update m_user
+[2014-12-12 00:51:55.969] [DEBUG] application - UserModel#setAccessToken
+[2014-12-12 00:51:55.970] [DEBUG] application - UPDATE m_user SET   access_token = $1 , update_user_id = $2 , update_datetime = CURRENT_TIMESTAMP WHERE user_id = $3
+[2014-12-12 00:51:55.970] [DEBUG] application - parameter: user01, accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-12 00:51:55.970] [DEBUG] application - DBManager#execute
+[2014-12-12 00:51:55.970] [DEBUG] application - [object Object]
+[2014-12-12 00:51:55.973] [DEBUG] application - DBManager#commit
+[2014-12-12 00:51:55.982] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:51:55.982] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:51:55.983] [DEBUG] application - { access_token: 'bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e' }
+[2014-12-12 00:51:55.985] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: 'bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e' } }
+[2014-12-12 00:51:55.986] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-12 00:51:55.986] [DEBUG] application - DBManager#close
+[2014-12-12 00:51:55.996] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-12 00:57:00.530] [INFO] application - [router - auth] called /access_token
+[2014-12-12 00:57:00.532] [DEBUG] application - LogicFactory#constructor
+[2014-12-12 00:57:00.532] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-12 00:57:00.533] [DEBUG] application - AutLogic#constructor
+[2014-12-12 00:57:00.533] [DEBUG] application - BaseLogic#constructor
+[2014-12-12 00:57:00.534] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-12 00:57:00.534] [DEBUG] application - ResponseData#constructor
+[2014-12-12 00:57:00.534] [DEBUG] application - AuthLogic#validate
+[2014-12-12 00:57:00.534] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:57:00.535] [DEBUG] application - AuthManager#constructor
+[2014-12-12 00:57:00.535] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-12 00:57:00.537] [DEBUG] application - Authorization: user01:password
+[2014-12-12 00:57:00.537] [DEBUG] application - created logoinInfo object. [object Object]
+[2014-12-12 00:57:00.538] [DEBUG] application - userid: user01, password: password
+[2014-12-12 00:57:00.538] [DEBUG] application - AuthLogic#validate is success.
+[2014-12-12 00:57:00.538] [DEBUG] application - null
+[2014-12-12 00:57:00.539] [DEBUG] application - AuthLogic#execute
+[2014-12-12 00:57:00.540] [DEBUG] application - user id: user01, password: password
+[2014-12-12 00:57:00.540] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-12 00:57:00.540] [DEBUG] application - DBManager#constructor
+[2014-12-12 00:57:00.540] [DEBUG] application - DBManager#open
+[2014-12-12 00:57:00.552] [DEBUG] application - DB open Sucess.
+[2014-12-12 00:57:00.553] [DEBUG] application - create UserModel object.
+[2014-12-12 00:57:00.553] [DEBUG] application - UserModel#constractor
+[2014-12-12 00:57:00.554] [DEBUG] application - UserModel#getUser
+[2014-12-12 00:57:00.554] [DEBUG] application - SELECT   user_id as userId, password as password, admin_flg as adminFlg FROM m_user WHERE user_id = $1 AND delete_flg = '0'
+[2014-12-12 00:57:00.554] [DEBUG] application - parameter: user01
+[2014-12-12 00:57:00.555] [DEBUG] application - DBManager#execute
+[2014-12-12 00:57:00.555] [DEBUG] application - [object Object]
+[2014-12-12 00:57:00.560] [DEBUG] application - get user.
+[2014-12-12 00:57:00.561] [DEBUG] application - get user success.
+[2014-12-12 00:57:00.561] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-12 00:57:00.561] [DEBUG] application - check password.
+[2014-12-12 00:57:00.561] [DEBUG] application - AuthManager#comparePassword
+[2014-12-12 00:57:00.562] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-12 00:57:00.562] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-12 00:57:00.562] [DEBUG] application - password match.
+[2014-12-12 00:57:00.562] [DEBUG] application - create accesstoken.
+[2014-12-12 00:57:00.563] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-12 00:57:00.564] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: 127.0.0.1
+[2014-12-12 00:57:00.565] [DEBUG] application - DBManager#begin
+[2014-12-12 00:57:00.566] [DEBUG] application - update m_user
+[2014-12-12 00:57:00.566] [DEBUG] application - UserModel#setAccessToken
+[2014-12-12 00:57:00.566] [DEBUG] application - UPDATE m_user SET   access_token = $1 , update_user_id = $2 , update_datetime = CURRENT_TIMESTAMP WHERE user_id = $3
+[2014-12-12 00:57:00.566] [DEBUG] application - parameter: user01, accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-12 00:57:00.567] [DEBUG] application - DBManager#execute
+[2014-12-12 00:57:00.567] [DEBUG] application - [object Object]
+[2014-12-12 00:57:00.578] [DEBUG] application - DBManager#commit
+[2014-12-12 00:57:00.579] [DEBUG] application - passed BaseLogic#execute
+[2014-12-12 00:57:00.580] [DEBUG] application - ResponseData#createResponseData
+[2014-12-12 00:57:00.580] [DEBUG] application - { access_token: 'bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e' }
+[2014-12-12 00:57:00.581] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: 'bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e' } }
+[2014-12-12 00:57:00.582] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-12 00:57:00.583] [DEBUG] application - DBManager#close
+[2014-12-12 00:57:00.598] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"

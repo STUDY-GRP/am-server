@@ -1,0 +1,435 @@
+[2014-12-09 00:00:00.809] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:00:00.811] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:00:00.811] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:00:00.811] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:00:00.812] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:00:00.812] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:00:00.812] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:00:00.813] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:00:00.814] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:00:00.814] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:00:00.814] [DEBUG] application - null
+[2014-12-09 00:00:00.815] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:00:00.815] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:00:00.817] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:00:00.817] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:00:00.817] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:00:00.817] [DEBUG] application - DBManager#open
+[2014-12-09 00:00:00.836] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:00:00.836] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:00:00.837] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:00:00.837] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:00:00.837] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:00:00.837] [DEBUG] application - password match.
+[2014-12-09 00:00:00.837] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:00:00.838] [DEBUG] application - DBManager#begin
+[2014-12-09 00:00:00.839] [DEBUG] application - update m_user
+[2014-12-09 00:00:00.841] [DEBUG] application - DBManager#commit
+[2014-12-09 00:00:00.841] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:00:00.842] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:00:00.842] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:00:00.843] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:00:00.844] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:00:00.853] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:41:38.522] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:41:38.523] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:41:38.524] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:41:38.525] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:41:38.525] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:41:38.525] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:41:38.526] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:41:38.527] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:41:38.527] [DEBUG] application - Authorization: user01:
+[2014-12-09 00:41:38.527] [DEBUG] application - userid: user01, password: 
+[2014-12-09 00:41:38.527] [DEBUG] application - Password is empty.
+[2014-12-09 00:41:38.528] [DEBUG] application - { status: 400,
+  code: 'PE00002',
+  message: 'ユーザー名または、パスワードが不適切ですs。' }
+[2014-12-09 00:41:38.532] [DEBUG] application - Failed Validation!!
+[2014-12-09 00:41:38.532] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:41:38.532] [DEBUG] application - null
+[2014-12-09 00:41:38.533] [DEBUG] application - { header: { errorcode: 'PE00002', message: 'ユーザー名または、パスワードが不適切ですs。' },
+  body: null }
+[2014-12-09 00:41:38.533] [DEBUG] application - HTTP Status: 400, Data: [object Object]
+[2014-12-09 00:41:38.533] [DEBUG] application - [auth] httpStatus: 400, response: [object Object]
+[2014-12-09 00:41:38.638] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 400 123 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:42:14.983] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:42:14.984] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:42:14.984] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:42:14.984] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:42:14.984] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:42:14.984] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:42:14.985] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:42:14.985] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:42:14.985] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:42:14.985] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:42:14.986] [DEBUG] application - null
+[2014-12-09 00:42:14.987] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:42:14.987] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:42:14.987] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:42:14.987] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:42:14.988] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:42:14.988] [DEBUG] application - DBManager#open
+[2014-12-09 00:42:15.001] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:42:15.002] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:42:15.002] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:42:15.002] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:42:15.003] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:42:15.003] [DEBUG] application - password match.
+[2014-12-09 00:42:15.003] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:42:15.004] [DEBUG] application - DBManager#begin
+[2014-12-09 00:42:15.005] [DEBUG] application - update m_user
+[2014-12-09 00:42:15.009] [DEBUG] application - DBManager#commit
+[2014-12-09 00:42:15.010] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:42:15.010] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:42:15.010] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:42:15.011] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:42:15.011] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:42:15.012] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:43:46.940] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:43:46.940] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:43:46.941] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:43:46.941] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:43:46.941] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:43:46.941] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:43:46.942] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:43:46.942] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:43:46.942] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:43:46.942] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:43:46.942] [DEBUG] application - null
+[2014-12-09 00:43:46.943] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:43:46.943] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:43:46.944] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:43:46.945] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:43:46.945] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:43:46.945] [DEBUG] application - DBManager#open
+[2014-12-09 00:43:46.953] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:43:46.953] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:43:46.954] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:43:46.954] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:43:46.954] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:43:46.954] [DEBUG] application - password match.
+[2014-12-09 00:43:46.954] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:43:46.955] [DEBUG] application - DBManager#begin
+[2014-12-09 00:43:46.955] [DEBUG] application - update m_user
+[2014-12-09 00:43:46.956] [DEBUG] application - DBManager#commit
+[2014-12-09 00:43:46.957] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:43:46.957] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:43:46.958] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:43:46.958] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:43:46.959] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:43:46.960] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:43:56.611] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:43:56.612] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:43:56.613] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:43:56.613] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:43:56.613] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:43:56.613] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:43:56.614] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:43:56.615] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:43:56.615] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:43:56.615] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:43:56.616] [DEBUG] application - null
+[2014-12-09 00:43:56.616] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:43:56.618] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:43:56.618] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:43:56.618] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:43:56.618] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:43:56.619] [DEBUG] application - DBManager#open
+[2014-12-09 00:43:56.633] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:43:56.634] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:43:56.634] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:43:56.634] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:43:56.635] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:43:56.635] [DEBUG] application - password match.
+[2014-12-09 00:43:56.635] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:43:56.635] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: undefined
+[2014-12-09 00:43:56.636] [DEBUG] application - DBManager#begin
+[2014-12-09 00:43:56.637] [DEBUG] application - update m_user
+[2014-12-09 00:43:56.639] [DEBUG] application - DBManager#commit
+[2014-12-09 00:43:56.640] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:43:56.640] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:43:56.640] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:43:56.641] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:43:56.642] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:43:56.649] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:45:34.915] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:45:34.917] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:45:34.918] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:45:34.918] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:45:34.918] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:45:34.918] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:45:34.919] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:45:34.920] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:45:34.920] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:45:34.921] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:45:34.921] [DEBUG] application - null
+[2014-12-09 00:45:34.922] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:45:34.924] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:45:34.924] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:45:34.924] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:45:34.925] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:45:34.925] [DEBUG] application - DBManager#open
+[2014-12-09 00:45:34.942] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:46:06.898] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:46:06.899] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:46:06.900] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:46:06.900] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:46:06.900] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:46:06.901] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:46:06.901] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:46:06.902] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:46:06.902] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:46:06.902] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:46:06.903] [DEBUG] application - null
+[2014-12-09 00:46:06.904] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:46:06.905] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:46:06.906] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:46:06.906] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:46:06.906] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:46:06.907] [DEBUG] application - DBManager#open
+[2014-12-09 00:46:06.923] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:46:06.923] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:46:06.923] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:46:06.924] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:46:06.924] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:46:06.924] [DEBUG] application - password match.
+[2014-12-09 00:46:06.925] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:46:06.925] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: undefined
+[2014-12-09 00:46:06.926] [DEBUG] application - DBManager#begin
+[2014-12-09 00:46:06.928] [DEBUG] application - update m_user
+[2014-12-09 00:46:06.929] [DEBUG] application - DBManager#commit
+[2014-12-09 00:46:06.931] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:46:06.932] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:46:06.932] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:46:06.933] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:46:06.934] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:46:06.946] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:46:45.788] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:46:45.790] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:46:45.790] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:46:45.791] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:46:45.791] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:46:45.791] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:46:45.791] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:46:45.792] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:46:45.793] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:46:45.793] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:46:45.793] [DEBUG] application - null
+[2014-12-09 00:46:45.794] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:46:45.795] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:46:45.796] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:46:45.796] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:46:45.796] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:46:45.796] [DEBUG] application - DBManager#open
+[2014-12-09 00:46:45.811] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:46:45.812] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:46:45.812] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:46:45.812] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:46:45.813] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:46:45.813] [DEBUG] application - password match.
+[2014-12-09 00:46:45.825] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:46:45.825] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: undefined
+[2014-12-09 00:46:45.826] [DEBUG] application - DBManager#begin
+[2014-12-09 00:46:45.828] [DEBUG] application - update m_user
+[2014-12-09 00:46:45.831] [DEBUG] application - DBManager#commit
+[2014-12-09 00:46:45.834] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:46:45.834] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:46:45.834] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:46:45.835] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:46:45.835] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:46:45.841] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:51:18.970] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:51:18.971] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:51:18.972] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:51:18.972] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:51:18.972] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:51:18.973] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:51:18.973] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:51:18.974] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:51:18.974] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:51:18.974] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:51:18.974] [DEBUG] application - null
+[2014-12-09 00:51:18.975] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:51:18.976] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:51:18.977] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:51:18.977] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:51:18.977] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:51:18.977] [DEBUG] application - DBManager#open
+[2014-12-09 00:51:18.993] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:51:18.993] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:51:18.994] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:51:18.994] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:51:18.994] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:51:18.995] [DEBUG] application - password match.
+[2014-12-09 00:51:19.007] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:51:19.007] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: undefined
+[2014-12-09 00:51:19.014] [DEBUG] application - DBManager#begin
+[2014-12-09 00:51:19.015] [DEBUG] application - update m_user
+[2014-12-09 00:51:19.017] [DEBUG] application - DBManager#commit
+[2014-12-09 00:51:19.018] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:51:19.019] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:51:19.019] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:51:19.019] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:51:19.020] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:51:19.025] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:51:47.975] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:51:47.976] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:51:47.976] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:51:47.977] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:51:47.977] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:51:47.977] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:51:47.977] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:51:47.978] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:51:47.978] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:51:47.979] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:51:47.979] [DEBUG] application - null
+[2014-12-09 00:51:47.980] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:51:47.981] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:51:47.981] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:51:47.981] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:51:47.981] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:51:47.981] [DEBUG] application - DBManager#open
+[2014-12-09 00:51:47.997] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:51:47.997] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:51:47.997] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:51:47.998] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:51:47.998] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:51:47.998] [DEBUG] application - password match.
+[2014-12-09 00:51:47.999] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:51:48.000] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: undefined
+[2014-12-09 00:51:48.001] [DEBUG] application - DBManager#begin
+[2014-12-09 00:51:48.002] [DEBUG] application - update m_user
+[2014-12-09 00:51:48.003] [DEBUG] application - DBManager#commit
+[2014-12-09 00:51:48.004] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:51:48.005] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:51:48.005] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:51:48.006] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:51:48.007] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:51:48.012] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 00:52:37.847] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:52:37.848] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:52:37.848] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:52:37.849] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:52:37.849] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:52:37.849] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:52:37.849] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:52:37.850] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:52:37.851] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:52:37.851] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:52:37.851] [DEBUG] application - null
+[2014-12-09 00:52:37.852] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:52:37.853] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:52:37.853] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:52:37.854] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:52:37.854] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:52:37.854] [DEBUG] application - DBManager#open
+[2014-12-09 00:52:37.869] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:52:52.387] [INFO] application - [router - auth] called /access_token
+[2014-12-09 00:52:52.389] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 00:52:52.390] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 00:52:52.390] [DEBUG] application - AutLogic#constructor
+[2014-12-09 00:52:52.391] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 00:52:52.391] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 00:52:52.391] [DEBUG] application - ResponseData#constructor
+[2014-12-09 00:52:52.392] [DEBUG] application - AuthLogic#validate
+[2014-12-09 00:52:52.393] [DEBUG] application - Authorization: user01:password
+[2014-12-09 00:52:52.393] [DEBUG] application - userid: user01, password: password
+[2014-12-09 00:52:52.393] [DEBUG] application - null
+[2014-12-09 00:52:52.395] [DEBUG] application - AuthLogic#execute
+[2014-12-09 00:52:52.396] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 00:52:52.397] [DEBUG] application - user id: user01, password: password
+[2014-12-09 00:52:52.398] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 00:52:52.398] [DEBUG] application - DBManager#constructor
+[2014-12-09 00:52:52.398] [DEBUG] application - DBManager#open
+[2014-12-09 00:52:52.416] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 00:52:52.416] [DEBUG] application - AuthManager#constructor
+[2014-12-09 00:52:52.417] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 00:52:52.417] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:52:52.417] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 00:52:52.417] [DEBUG] application - password match.
+[2014-12-09 00:52:52.418] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 00:52:52.418] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: undefined
+[2014-12-09 00:52:52.419] [DEBUG] application - DBManager#begin
+[2014-12-09 00:52:52.420] [DEBUG] application - update m_user
+[2014-12-09 00:52:52.422] [DEBUG] application - DBManager#commit
+[2014-12-09 00:52:52.423] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 00:52:52.424] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 00:52:52.424] [DEBUG] application - { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' }
+[2014-12-09 00:52:52.425] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: '5b1291a015bdb257ede2b8002d9d1f59049f540d18a50409232c274584e273bbc8a900db703db4f10e8b84943be129af024ad2bf1b6c74d9c8753c80c646b946' } }
+[2014-12-09 00:52:52.425] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 00:52:52.429] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-09 01:07:33.220] [INFO] application - [router - auth] called /access_token
+[2014-12-09 01:07:33.221] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 01:07:33.222] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 01:07:33.222] [DEBUG] application - AutLogic#constructor
+[2014-12-09 01:07:33.222] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 01:07:33.222] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 01:07:33.223] [DEBUG] application - ResponseData#constructor
+[2014-12-09 01:07:33.223] [DEBUG] application - AuthLogic#validate
+[2014-12-09 01:07:33.224] [DEBUG] application - Authorization: user01:password
+[2014-12-09 01:07:33.224] [DEBUG] application - userid: user01, password: password
+[2014-12-09 01:07:33.224] [DEBUG] application - null
+[2014-12-09 01:07:33.225] [DEBUG] application - AuthLogic#execute
+[2014-12-09 01:07:33.226] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 01:07:33.227] [DEBUG] application - user id: user01, password: password
+[2014-12-09 01:07:33.227] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 01:07:33.227] [DEBUG] application - DBManager#constructor
+[2014-12-09 01:07:33.227] [DEBUG] application - DBManager#open
+[2014-12-09 01:07:33.242] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 01:07:33.242] [DEBUG] application - AuthManager#constructor
+[2014-12-09 01:07:33.243] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 01:07:33.243] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 01:07:33.244] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 01:07:33.244] [DEBUG] application - password match.
+[2014-12-09 01:07:33.245] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 01:07:33.245] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: 127.0.0.1
+[2014-12-09 01:07:33.246] [DEBUG] application - DBManager#begin
+[2014-12-09 01:07:33.247] [DEBUG] application - update m_user
+[2014-12-09 01:07:33.248] [DEBUG] application - DBManager#commit
+[2014-12-09 01:07:33.249] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 01:07:52.719] [INFO] application - [router - auth] called /access_token
+[2014-12-09 01:07:52.721] [DEBUG] application - LogicFactory#constructor
+[2014-12-09 01:07:52.721] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-09 01:07:52.722] [DEBUG] application - AutLogic#constructor
+[2014-12-09 01:07:52.722] [DEBUG] application - BaseLogic#constructor
+[2014-12-09 01:07:52.722] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-09 01:07:52.723] [DEBUG] application - ResponseData#constructor
+[2014-12-09 01:07:52.724] [DEBUG] application - AuthLogic#validate
+[2014-12-09 01:07:52.724] [DEBUG] application - Authorization: user01:password
+[2014-12-09 01:07:52.724] [DEBUG] application - userid: user01, password: password
+[2014-12-09 01:07:52.725] [DEBUG] application - null
+[2014-12-09 01:07:52.726] [DEBUG] application - AuthLogic#execute
+[2014-12-09 01:07:52.727] [DEBUG] application - authorization : Basic dXNlcjAxOnBhc3N3b3Jk
+[2014-12-09 01:07:52.727] [DEBUG] application - user id: user01, password: password
+[2014-12-09 01:07:52.728] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-09 01:07:52.728] [DEBUG] application - DBManager#constructor
+[2014-12-09 01:07:52.728] [DEBUG] application - DBManager#open
+[2014-12-09 01:07:52.746] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-09 01:07:52.746] [DEBUG] application - AuthManager#constructor
+[2014-12-09 01:07:52.747] [DEBUG] application - AuthManager#comparePassword
+[2014-12-09 01:07:52.747] [DEBUG] application - request password: b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 01:07:52.747] [DEBUG] application - stored password : b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+[2014-12-09 01:07:52.748] [DEBUG] application - password match.
+[2014-12-09 01:07:52.749] [DEBUG] application - AuthManager#createAccessToken
+[2014-12-09 01:07:52.749] [DEBUG] application - userid: user01, useragent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36, ip: 127.0.0.1
+[2014-12-09 01:07:52.750] [DEBUG] application - DBManager#begin
+[2014-12-09 01:07:52.751] [DEBUG] application - update m_user
+[2014-12-09 01:07:52.752] [DEBUG] application - DBManager#commit
+[2014-12-09 01:07:52.753] [DEBUG] application - passed BaseLogic#execute
+[2014-12-09 01:07:52.753] [DEBUG] application - ResponseData#createResponseData
+[2014-12-09 01:07:52.754] [DEBUG] application - { access_token: 'bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e' }
+[2014-12-09 01:07:52.755] [DEBUG] application - { header: { errorcode: '', message: '' },
+  body: { access_token: 'bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e' } }
+[2014-12-09 01:07:52.756] [DEBUG] application - [auth] httpStatus: 200, response: [object Object]
+[2014-12-09 01:07:52.757] [DEBUG] application - DBManager#close
+[2014-12-09 01:07:52.766] [INFO] application - 127.0.0.1 - - "POST /api/1.0/auth/access_token HTTP/1.1" 200 195 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"

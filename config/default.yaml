@@ -22,4 +22,9 @@ db:
     port: 5432
     database: "study-db"
     host: "localhost"
-    password: "postgres"    
+    password: "postgres"
+# Redis設定
+redis:
+  configure:
+    port: 6379
+    host: "localhost"

@@ -1,4 +1,6 @@
+AuthManager    = require './auth-manager'
 DBManager      = require './db-manager'
+RedisManager   = require './redis-manager'
 SessionManager = require './session-manager'
 ResponseData   = require './response-data'
 RESULTCD       = require './result-code'
@@ -16,6 +18,12 @@ class BaseLogic
 
   # セッション管理オブジェクト
   _sessionManager = null
+
+  # 認証管理オブジェクト
+  _authManager = null
+
+  # cookieをオブジェクト
+  _cookie = null
 
   # BaseLogicを生成するコンストラクタ
   #
@@ -41,8 +49,27 @@ class BaseLogic
   getSessionManager: () =>
     @_logger.debug 'BaseLogic#getSessionManager'
     unless @_sessionManager
-      @_sessionManager = new SessionManager(@_logger)
+      redis = new RedisManager(@_logger)
+      @_sessionManager = new SessionManager(@_logger, redis)
     return @_sessionManager
+
+  # 認証管理オブジェクトを取得する。
+  #
+  # @return [Object] 認証管理オブジェクト
+  #
+  getAuthManager: () =>
+    @_logger.debug 'BaseLogic#getAuthManager'
+    unless @_authManager
+      @_authManager = new AuthManager(@_logger)
+    return @_authManager
+
+  # Cookieを取得する。
+  #
+  # @return [Object] Cookie
+  #
+  getCookie: () =>
+    @_logger.debug 'BaseLogic#getCookies'
+    return @_cookie
 
   # 入力パラメータの妥当性をチェックする 。
   # サブクラスで必要に応じてオーバーライドする。
@@ -70,7 +97,8 @@ class BaseLogic
   execute: (request, callback) =>
     @_logger.debug 'BaseLogic#execute'
     resData.createResponseData RESULTCD.OK.status, null, (httpStatus, data) =>
-            return callback httpStatus, data
+      return callback httpStatus, data
+
   # 業務ロジックを実行する
   #
   # @param [Object] request HTTPリクエストオブジェクト
@@ -83,9 +111,10 @@ class BaseLogic
     @_logger.debug 'BaseLogic#logicExecute'
     # レスポンスデータオブジェクトの生成
     resData = new ResponseData(@_logger)
+    # Cookieの設定
+    _SetCookie.call @, request?.headers?.cookie
     # 入力パラメータの妥当性チェック
     @validate request, (err) =>
-      @_logger.debug err
       if err 
         # 入力パラメータの妥当性チェックでエラーの場合
         @_logger.debug 'Failed Validation!!'
@@ -101,4 +130,31 @@ class BaseLogic
           # レスポンスデータの生成
           resData.createResponseData err, data, (httpStatus, data) =>
             return callback httpStatus, data
+
+  # 終了処理を行う
+  # 
+  dispose: ->
+    if @_dbManager
+      @_dbManager.close()
+    if @_sessionManager
+      @_sessionManager.dispose()
+
+  # Cookieを設定する
+  # @param [String] Cookie
+  _SetCookie = (cookie) ->
+    @_logger.debug 'BaseLogic#_SetCookie'
+    @_logger.debug "cookie: #{cookie}"
+    if cookie?
+      # Cookieがある場合にCookieを分割してメンバ変数は設定する
+      cookies = cookie.split ';'
+      @_cookie = {}
+      cookies.forEach (item) =>
+        @_logger.debug "item #{item}"
+        parts = item.split('=')
+        if parts.length = 2
+          name  = parts[0].trim()
+          value = parts[1].trim()
+          @_logger.debug "item: name = #{name}"
+          @_logger.debug "item: value = #{value}"
+          @_cookie[name] = value
 module.exports = BaseLogic

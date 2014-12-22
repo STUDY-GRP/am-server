@@ -6,6 +6,7 @@ favicon        = require("serve-favicon")
 #logger         = require("morgan")
 cookieParser   = require("cookie-parser")
 bodyParser     = require("body-parser")
+methodOverride = require('method-override')
 # Routing - Client
 routes         = require("./routes-cli/index")
 auth           = require("./routes-cli/auth")
@@ -30,8 +31,14 @@ app.set "Logger", logger
 # uncomment after placing your favicon in /public
 #app.use(favicon(__dirname + '/public/favicon.ico'));
 # app.use express.logger("dev")
+# for parsing application/json
+#app.use bodyParser()
+#app.use bodyParser.json()
+# for parsing application/x-www-form-urlencoded
+app.use bodyParser.urlencoded {extended: true}
 app.use bodyParser.json()
-app.use bodyParser.urlencoded(extended: false)
+app.use methodOverride()
+# cookieを使用する設定
 app.use cookieParser()
 app.use express.static(path.join(__dirname, "public"))
 app.use Log4js.connectLogger(logger)
@@ -43,7 +50,7 @@ app.use "/api/1.0/attendance_time", attendanceTime
 app.use "/api/1.0/quitting_time", quiitingTime
 app.use "/admin/api/1.0/login", login
 app.use "/admin/api/1.0/logout", logout
-app.use "/admin/api/1.0/users", users
+app.use "/admin/api/1.0/user", users
 app.use "/admin/api/1.0/attendance", attendance
 
 # catch 404 and forward to error handler

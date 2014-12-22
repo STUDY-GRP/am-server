@@ -1,77 +1,125 @@
+_         = require 'underscore'
 BaseLogic = require '../../commonLibs/base-logic'
 RESULTCD  = require '../../commonLibs/result-code'
-Crypto    = require 'crypto'
+Async     = require 'async'
+UserModel = require '../../models/user-model'
 
+# クライント側認証ロジッククラス
+# ユーザーIDとパスワードからAccessTokenを取得する
+#
 class AuthLogic extends BaseLogic
+
+  _loginInfo = null
+
+  # AuthLogicを生成するコンストラクタ
+  #
+  # @param [Object] _logger Log4jsログオブジェクト
+  #
   constructor: (logger) ->
     logger.debug 'AutLogic#constructor'
     super logger
+
+  # 入力パラメータの妥当性をチェックする 。
+  #
+  # @param [Object] request HTTPリクエストオブジェクト
+  # @param [Function] callback コールバック関数
+  # callback関数
+  #   第1引数 エラーの場合、RESULTCDオブジェクト
+  #          エラーでない場合、null
+  # 
   validate: (request, callback) ->
     @_logger.debug 'AuthLogic#validate'
     # リクエストにAuthorizationヘッダがあるか確認する
-    if request?.headers?.authorization isnt undefined
-      # リクエストにAuthorizationヘッダがある場合、
-      # ユーザーIDとパスワードを取得する
-      buf = new Buffer request?.headers?.authorization?.split(' ')[1], 'base64'
-      @_logger.debug "Authorization: #{buf}"
-      array = buf.toString().split ':'
-      if array.length is 2
-        userid = array[0].trim()
-        password = array[1].trim()
-        @_logger.debug "userid: #{userid}, password: #{password}"
-        if userid.length > 0 and password.length > 0
-          # エラーがない場合
-          return callback null
-      # ユーザーID、パスワードが不適切な場合、認証エラー
-      @_logger.debug 'Invalid UserID or Password'
-      return callback RESULTCD.PE0002
-    # Authorizationヘッダがない場合、認証エラー
-    @_logger.debug 'Not Found Authorization Header'
-    return callback RESULTCD.PE0001
+    if request?.headers?.authorization is undefined
+      # Authorizationヘッダがない場合、認証エラー
+      @_logger.debug 'Not Found Authorization Header'
+      return callback RESULTCD.PE0001
+    # リクエストにAuthorizationヘッダがある場合、
+    # ユーザーIDとパスワードを取得する
+    authorization = request.headers.authorization
+    authManager = @getAuthManager()
+    authManager.getLoginInfo authorization, (err, loginInfo) =>
+      if err
+        return callback err
+      @_logger.debug "userid: #{loginInfo.userid}, password: #{loginInfo.password}"
+      # ユーザーIDの未入力チェック
+      if _.isEmpty(loginInfo.userid)
+        @_logger.debug 'UserID is empty.'
+        return callback RESULTCD.PE0002
+      # パスワードの未入力チェック
+      if _.isEmpty(loginInfo.password)
+        @_logger.debug 'Password is empty.'
+        return callback RESULTCD.PE0002
+      @_logger.debug 'AuthLogic#validate is success.'
+      # エラーがない場合S
+      @_loginInfo = loginInfo
+      return callback null
+
+  # 業務ロジックを実行する
+  #
+  # @param [Object] request HTTPリクエストオブジェクト
+  # @param [Function] コールバック関数
+  # callback関数
+  #   第1引数 エラーの場合、RESULTCDオブジェクト
+  #          エラーでない場合、null
+  #   第2引数 レスポンスに渡すデータ
+  #
   execute: (request, callback) ->
     @_logger.debug 'AuthLogic#execute'
     # リクエストヘッダにauthorizationが存在する場合、
     # ユーザーIDとパスワードを取得する
-    @_logger.debug "authorization : #{request.headers.authorization}"
-    buf = new Buffer(request.headers.authorization.split(' ')[1], 'base64')
-    array = buf.toString().split ':'
-    reqUserId = array[0]
-    reqPassword = array[1]
-    @_logger.debug "user id: #{reqUserId}, password: #{reqPassword}"
+    @_logger.debug "user id: #{@_loginInfo.userid}, password: #{@_loginInfo.password}"
     db = @getDBManager()
     db.open (err, client) =>
       if err
         return callback RESULTCD.DB0001, null
-      sql = "SELECT "
-      sql += "  user_id as userId"
-      sql += ", password as password"
-      sql += ", admin_flg as adminFlg "
-      sql += "FROM m_user "
-      sql += "WHERE "
-      sql += "user_id = $1"
-      sql += "AND delete_flg = '0'"
-      db.execute client, sql, [reqUserId], (err, result) =>
+      @_logger.debug 'DB open Sucess.'
+      @_logger.debug 'create UserModel object.'
+      userModel = new UserModel(db, @_logger)
+      # ユーザー情報の取得
+      userModel.getUser @_loginInfo.userid, (err, user) =>
         if err
+          # エラーの場合
           return callback RESULTCD.DB0002, null
-        if result.rowCount <= 0
-          return callback RESULTCD.PE0002, null
-        password = result.rows[0].password
-        # パスワードが同じかチェッックする
-        # 与えられたアルゴリズでハッシュオブジェクトを取得する
-        sha512 = Crypto.createHash 'sha512'
-        sha512.update reqPassword
-        hash = sha512.digest 'hex'
-        @_logger.debug "request password: #{hash}"
-        @_logger.debug "stored password : #{password}"
-        if password isnt hash
-          @_logger.debug 'password unmatch.'
-          return callback RESULTCD.PE0002, null
-        @getSessionManager().register reqUserId, (err, sid) =>
-          if err
-            @_logger.debug 'session id register failed.'
-            return callback RESULTCD.PE0002, null
-          @_logger.debug "sid: #{sid}"
-          data =
-            access_token: sid
-          return callback RESULTCD.OK, data
+        @_logger.debug 'get user success.'
+        # ユーザーな存在しない場合、エラー
+        return callback RESULTCD.PE0002, null unless user
+        authManager = @getAuthManager()
+        @_logger.debug 'check password.'
+        isSame = authManager.isSamePassword @_loginInfo.password, user.password
+        # パスワードが違う場合、エラー
+        return callback RESULTCD.PE0002, null unless isSame
+        @_logger.debug 'create accesstoken.'
+        xffField = request?.get 'x-forwarded-for'
+        # ユーザーエージェント
+        userAgent = request?.get 'User-Agent'
+        # IPアドレス
+        console.log _.isEmpty(xffField)
+        ip = if _.isEmpty(xffField) then request?.ip else request?.get xffField
+        # アクセストークンの作成
+        accessToken = authManager.createAccessToken @_loginInfo.userid, userAgent, ip
+        Async.waterfall [
+          (asyncCallback) ->
+            # トランザクション開始
+            db.begin (err) ->
+              asyncCallback err
+          (asyncCallback) =>
+            @_logger.debug 'update m_user'
+            userModel.setAccessToken @_loginInfo.userid, accessToken, (err) ->
+              asyncCallback err
+          (asyncCallback) ->
+            # コミット
+            db.commit (err) ->
+              if err
+                asyncCallback err
+              data =
+                access_token: accessToken
+              return callback RESULTCD.OK, data 
+        ], (err) =>
+          # ロールバック
+          db.rollback (err) =>
+            if err
+              @_logger.error 'Rollback Failed.'
+              @_logger.error "err: #{err}"
+            return callback RESULTCD.FAILED, null
 module.exports = AuthLogic

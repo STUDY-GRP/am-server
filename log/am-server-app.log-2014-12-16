@@ -1,0 +1,1738 @@
+[2014-12-16 01:32:11.551] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:32:12.050] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 178 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:33:04.552] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:33:04.571] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 178 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:34:37.371] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:34:37.372] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:34:37.373] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:34:37.373] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:34:37.374] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:34:37.847] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 197 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:36:03.316] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:36:03.323] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:36:03.324] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:36:03.324] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:36:03.325] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:36:03.326] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:36:03.326] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:36:03.327] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:36:03.327] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:36:03.327] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:36:03.329] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-16 01:36:03.331] [DEBUG] application - Authorization Error: not found Basic
+[2014-12-16 01:36:03.762] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 174 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:37:39.643] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:37:39.645] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:37:39.646] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:37:39.646] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:37:39.646] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:37:39.647] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:37:39.647] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:37:39.647] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:37:39.648] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:37:39.648] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:37:39.650] [DEBUG] application - AuthManager#getLoginInfo
+[2014-12-16 01:37:39.650] [DEBUG] application - Authorization Error: not found Basic
+[2014-12-16 01:37:40.019] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 175 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:40:43.559] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:40:43.562] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:40:43.562] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:40:43.563] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:40:43.563] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:40:43.563] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:40:43.563] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:40:43.564] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:40:43.564] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:40:43.564] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:40:43.566] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:40:43.994] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 169 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:42:07.049] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:42:07.051] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:42:07.051] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:42:07.051] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:42:07.052] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:42:07.052] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:42:07.052] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:42:07.052] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:42:07.053] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:42:07.053] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:42:07.054] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:42:07.054] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:42:07.537] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 171 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:43:38.543] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:43:38.545] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:43:38.545] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:43:38.546] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:43:38.546] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:43:38.546] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:43:38.546] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:43:38.547] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:43:38.547] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:43:38.547] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:43:38.548] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:43:38.548] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:43:38.902] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 190 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 01:44:28.797] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:44:28.799] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:44:28.800] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:44:28.800] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:44:28.800] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:44:28.800] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:44:28.800] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:44:28.801] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:44:28.801] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:44:28.801] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:44:28.802] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:44:28.802] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:44:28.803] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:44:28.803] [DEBUG] application - null
+[2014-12-16 01:44:28.804] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:44:28.804] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:44:28.804] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:44:28.805] [DEBUG] application - DBManager#open
+[2014-12-16 01:44:28.815] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:44:28.816] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:44:28.816] [DEBUG] application - DBManager#execute
+[2014-12-16 01:44:28.816] [DEBUG] application - [object Object]
+[2014-12-16 01:46:37.631] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:46:37.632] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:46:37.633] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:46:37.633] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:46:37.633] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:46:37.633] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:46:37.634] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:46:37.634] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:46:37.634] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:46:37.634] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:46:37.636] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:46:37.637] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:46:37.637] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:46:37.637] [DEBUG] application - null
+[2014-12-16 01:46:37.638] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:46:37.639] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:46:37.639] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:46:37.639] [DEBUG] application - DBManager#open
+[2014-12-16 01:46:37.651] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:46:37.652] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:46:37.652] [DEBUG] application - DBManager#execute
+[2014-12-16 01:46:37.653] [DEBUG] application - [object Object]
+[2014-12-16 01:46:37.657] [DEBUG] application - DBManager#begin
+[2014-12-16 01:48:36.330] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:48:36.331] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:48:36.331] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:48:36.332] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:48:36.332] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:48:36.332] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:48:36.333] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:48:36.333] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:48:36.333] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:48:36.333] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:48:36.335] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:48:36.335] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:48:36.335] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:48:36.335] [DEBUG] application - null
+[2014-12-16 01:48:36.336] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:48:36.336] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:48:36.336] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:48:36.336] [DEBUG] application - DBManager#open
+[2014-12-16 01:48:36.346] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:48:36.347] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:48:36.347] [DEBUG] application - DBManager#execute
+[2014-12-16 01:48:36.348] [DEBUG] application - [object Object]
+[2014-12-16 01:48:36.352] [DEBUG] application - DBManager#begin
+[2014-12-16 01:50:29.775] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:50:29.776] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:50:29.776] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:50:29.777] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:50:29.777] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:50:29.777] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:50:29.778] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:50:29.778] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:50:29.778] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:50:29.778] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:50:29.780] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:50:29.780] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:50:29.780] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:50:29.780] [DEBUG] application - null
+[2014-12-16 01:50:29.781] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:50:29.782] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:50:29.782] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:50:29.782] [DEBUG] application - DBManager#open
+[2014-12-16 01:50:29.794] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:50:29.795] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:50:29.795] [DEBUG] application - DBManager#execute
+[2014-12-16 01:50:29.795] [DEBUG] application - [object Object]
+[2014-12-16 01:50:29.800] [DEBUG] application - DBManager#begin
+[2014-12-16 01:52:07.336] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:52:07.338] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:52:07.338] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:52:07.338] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:52:07.339] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:52:07.339] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:52:07.339] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:52:07.339] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:52:07.340] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:52:07.340] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:52:07.342] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:52:07.343] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:52:07.345] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:52:07.345] [DEBUG] application - null
+[2014-12-16 01:52:07.346] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:52:07.347] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:52:07.348] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:52:07.349] [DEBUG] application - DBManager#open
+[2014-12-16 01:52:07.360] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:52:07.360] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:52:07.360] [DEBUG] application - DBManager#execute
+[2014-12-16 01:52:07.361] [DEBUG] application - [object Object]
+[2014-12-16 01:52:07.366] [DEBUG] application - DBManager#begin
+[2014-12-16 01:53:53.624] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:53:53.626] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:53:53.626] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:53:53.626] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:53:53.627] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:53:53.627] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:53:53.627] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:53:53.627] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:53:53.628] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:53:53.628] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:53:53.630] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:53:53.630] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:53:53.630] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:53:53.630] [DEBUG] application - null
+[2014-12-16 01:53:53.631] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:53:53.631] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:53:53.632] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:53:53.632] [DEBUG] application - DBManager#open
+[2014-12-16 01:53:53.644] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:53:53.645] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:53:53.645] [DEBUG] application - DBManager#execute
+[2014-12-16 01:53:53.645] [DEBUG] application - [object Object]
+[2014-12-16 01:53:53.650] [DEBUG] application - DBManager#begin
+[2014-12-16 01:56:11.718] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:56:11.720] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:56:11.720] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:56:11.720] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:56:11.721] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:56:11.721] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:56:11.721] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:56:11.721] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:56:11.722] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:56:11.722] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:56:11.724] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:56:11.724] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:56:11.724] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:56:11.724] [DEBUG] application - null
+[2014-12-16 01:56:11.725] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:56:11.725] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:56:11.726] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:56:11.726] [DEBUG] application - DBManager#open
+[2014-12-16 01:56:11.738] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:56:11.739] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:56:11.739] [DEBUG] application - DBManager#execute
+[2014-12-16 01:56:11.739] [DEBUG] application - [object Object]
+[2014-12-16 01:56:11.744] [DEBUG] application - DBManager#begin
+[2014-12-16 01:58:32.648] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:58:32.649] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:58:32.650] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:58:32.650] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:58:32.650] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:58:32.650] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:58:32.651] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:58:32.651] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:58:32.651] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:58:32.652] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:58:32.653] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:58:32.653] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:58:32.653] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:58:32.654] [DEBUG] application - null
+[2014-12-16 01:58:32.654] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:58:32.654] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:58:32.655] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:58:32.655] [DEBUG] application - DBManager#open
+[2014-12-16 01:58:32.667] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:58:32.667] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:58:32.668] [DEBUG] application - DBManager#execute
+[2014-12-16 01:58:32.668] [DEBUG] application - [object Object]
+[2014-12-16 01:59:36.820] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 01:59:36.821] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 01:59:36.822] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 01:59:36.822] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 01:59:36.822] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 01:59:36.823] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 01:59:36.823] [DEBUG] application - ResponseData#constructor
+[2014-12-16 01:59:36.823] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 01:59:36.823] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 01:59:36.824] [DEBUG] application - AuthManager#constructor
+[2014-12-16 01:59:36.825] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 01:59:36.825] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:59:36.826] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 01:59:36.826] [DEBUG] application - null
+[2014-12-16 01:59:36.827] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 01:59:36.827] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 01:59:36.827] [DEBUG] application - DBManager#constructor
+[2014-12-16 01:59:36.827] [DEBUG] application - DBManager#open
+[2014-12-16 01:59:36.839] [DEBUG] application - UserModel#constractor
+[2014-12-16 01:59:36.840] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 01:59:36.840] [DEBUG] application - DBManager#execute
+[2014-12-16 01:59:36.841] [DEBUG] application - [object Object]
+[2014-12-16 01:59:36.846] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 01:59:36.847] [DEBUG] application - DBManager#begin
+[2014-12-16 01:59:36.848] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:13:45.708] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:13:45.710] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:13:45.710] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:13:45.710] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:13:45.711] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:13:45.711] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:13:45.711] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:13:45.711] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:13:45.712] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:13:45.712] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:13:45.713] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:13:45.713] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:13:45.714] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:13:45.714] [DEBUG] application - null
+[2014-12-16 22:13:45.715] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:13:45.715] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:13:45.715] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:13:45.716] [DEBUG] application - DBManager#open
+[2014-12-16 22:13:45.727] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:13:45.728] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:13:45.729] [DEBUG] application - DBManager#execute
+[2014-12-16 22:13:45.729] [DEBUG] application - [object Object]
+[2014-12-16 22:13:45.735] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:13:45.736] [DEBUG] application - DBManager#begin
+[2014-12-16 22:13:45.737] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:14:54.466] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:14:54.468] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:14:54.469] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:14:54.469] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:14:54.469] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:14:54.470] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:14:54.470] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:14:54.470] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:14:54.470] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:14:54.471] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:14:54.472] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:14:54.472] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:14:54.472] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:14:54.473] [DEBUG] application - null
+[2014-12-16 22:14:54.474] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:14:54.474] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:14:54.474] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:14:54.475] [DEBUG] application - DBManager#open
+[2014-12-16 22:14:54.488] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:14:54.489] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:14:54.490] [DEBUG] application - DBManager#execute
+[2014-12-16 22:14:54.490] [DEBUG] application - [object Object]
+[2014-12-16 22:14:54.497] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:14:54.498] [DEBUG] application - DBManager#begin
+[2014-12-16 22:14:54.499] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:16:32.077] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:16:32.078] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:16:32.079] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:16:32.079] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:16:32.079] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:16:32.079] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:16:32.079] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:16:32.080] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:16:32.080] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:16:32.080] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:16:32.081] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:16:32.082] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:16:32.082] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:16:32.082] [DEBUG] application - null
+[2014-12-16 22:16:32.083] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:16:32.083] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:16:32.084] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:16:32.084] [DEBUG] application - DBManager#open
+[2014-12-16 22:16:32.095] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:16:32.096] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:16:32.097] [DEBUG] application - DBManager#execute
+[2014-12-16 22:16:32.097] [DEBUG] application - [object Object]
+[2014-12-16 22:16:32.101] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:16:32.102] [DEBUG] application - DBManager#begin
+[2014-12-16 22:16:32.103] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:22:35.327] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:22:35.329] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:22:35.329] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:22:35.330] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:22:35.330] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:22:35.330] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:22:35.331] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:22:35.331] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:22:35.331] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:22:35.332] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:22:35.334] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:22:35.334] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:22:35.334] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:22:35.335] [DEBUG] application - null
+[2014-12-16 22:22:35.335] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:22:35.336] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:22:35.336] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:22:35.336] [DEBUG] application - DBManager#open
+[2014-12-16 22:22:35.354] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:22:35.355] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:22:35.355] [DEBUG] application - DBManager#execute
+[2014-12-16 22:22:35.355] [DEBUG] application - [object Object]
+[2014-12-16 22:22:35.359] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:22:35.360] [DEBUG] application - DBManager#begin
+[2014-12-16 22:22:35.361] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:23:39.529] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:23:39.531] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:23:39.531] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:23:39.531] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:23:39.532] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:23:39.532] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:23:39.532] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:23:39.532] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:23:39.533] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:23:39.533] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:23:39.534] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:23:39.534] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:23:39.534] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:23:39.535] [DEBUG] application - null
+[2014-12-16 22:23:39.535] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:23:39.536] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:23:39.536] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:23:39.536] [DEBUG] application - DBManager#open
+[2014-12-16 22:23:39.548] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:23:39.548] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:23:39.549] [DEBUG] application - DBManager#execute
+[2014-12-16 22:23:39.549] [DEBUG] application - [object Object]
+[2014-12-16 22:23:39.554] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:23:39.555] [DEBUG] application - DBManager#begin
+[2014-12-16 22:23:39.556] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:24:59.329] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:24:59.331] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:24:59.331] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:24:59.332] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:24:59.332] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:24:59.332] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:24:59.333] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:24:59.333] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:24:59.333] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:24:59.333] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:24:59.335] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:24:59.335] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:24:59.335] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:24:59.336] [DEBUG] application - null
+[2014-12-16 22:24:59.337] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:24:59.337] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:24:59.337] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:24:59.337] [DEBUG] application - DBManager#open
+[2014-12-16 22:24:59.349] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:24:59.350] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:24:59.350] [DEBUG] application - DBManager#execute
+[2014-12-16 22:24:59.351] [DEBUG] application - [object Object]
+[2014-12-16 22:24:59.356] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:24:59.357] [DEBUG] application - DBManager#begin
+[2014-12-16 22:24:59.358] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:25:29.478] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:25:29.479] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:25:29.480] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:25:29.480] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:25:29.480] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:25:29.481] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:25:29.481] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:25:29.481] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:25:29.481] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:25:29.482] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:25:29.484] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:25:29.484] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:25:29.484] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:25:29.484] [DEBUG] application - null
+[2014-12-16 22:25:29.485] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:25:29.485] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:25:29.486] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:25:29.486] [DEBUG] application - DBManager#open
+[2014-12-16 22:25:29.502] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:25:29.502] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:25:29.503] [DEBUG] application - DBManager#execute
+[2014-12-16 22:25:29.503] [DEBUG] application - [object Object]
+[2014-12-16 22:25:29.507] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:25:29.508] [DEBUG] application - DBManager#begin
+[2014-12-16 22:25:29.509] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:27:11.877] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:27:11.879] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:27:11.879] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:27:11.879] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:27:11.880] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:27:11.880] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:27:11.880] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:27:11.881] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:27:11.881] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:27:11.881] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:27:11.882] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:27:11.883] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:27:11.883] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:27:11.883] [DEBUG] application - null
+[2014-12-16 22:27:11.884] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:27:11.885] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:27:11.885] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:27:11.885] [DEBUG] application - DBManager#open
+[2014-12-16 22:27:11.897] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:27:11.898] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:27:11.898] [DEBUG] application - DBManager#execute
+[2014-12-16 22:27:11.899] [DEBUG] application - [object Object]
+[2014-12-16 22:27:11.903] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:27:11.904] [DEBUG] application - DBManager#begin
+[2014-12-16 22:27:11.905] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:27:54.965] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:27:54.966] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:27:54.967] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:27:54.967] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:27:54.967] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:27:54.968] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:27:54.968] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:27:54.968] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:27:54.968] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:27:54.969] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:27:54.970] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:27:54.970] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:27:54.971] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:27:54.971] [DEBUG] application - null
+[2014-12-16 22:27:54.972] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:27:54.972] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:27:54.973] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:27:54.973] [DEBUG] application - DBManager#open
+[2014-12-16 22:27:54.984] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:27:54.985] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:27:54.985] [DEBUG] application - DBManager#execute
+[2014-12-16 22:27:54.986] [DEBUG] application - [object Object]
+[2014-12-16 22:27:54.990] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:27:54.991] [DEBUG] application - DBManager#begin
+[2014-12-16 22:27:54.992] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:28:44.735] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:28:44.736] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:28:44.737] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:28:44.737] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:28:44.737] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:28:44.737] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:28:44.737] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:28:44.738] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:28:44.738] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:28:44.738] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:28:44.739] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:28:44.740] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:28:44.740] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:28:44.740] [DEBUG] application - null
+[2014-12-16 22:28:44.741] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:28:44.741] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:28:44.742] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:28:44.742] [DEBUG] application - DBManager#open
+[2014-12-16 22:28:44.753] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:28:44.754] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:28:44.754] [DEBUG] application - DBManager#execute
+[2014-12-16 22:28:44.755] [DEBUG] application - [object Object]
+[2014-12-16 22:28:44.760] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:28:44.760] [DEBUG] application - DBManager#begin
+[2014-12-16 22:28:44.761] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:29:49.276] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:29:49.278] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:29:49.278] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:29:49.279] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:29:49.279] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:29:49.279] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:29:49.279] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:29:49.280] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:29:49.280] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:29:49.280] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:29:49.282] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:29:49.282] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:29:49.282] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:29:49.283] [DEBUG] application - null
+[2014-12-16 22:29:49.284] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:29:49.284] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:29:49.284] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:29:49.284] [DEBUG] application - DBManager#open
+[2014-12-16 22:29:49.296] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:29:49.297] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:29:49.298] [DEBUG] application - DBManager#execute
+[2014-12-16 22:29:49.298] [DEBUG] application - [object Object]
+[2014-12-16 22:29:49.302] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:29:49.303] [DEBUG] application - DBManager#begin
+[2014-12-16 22:29:49.304] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:31:21.989] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:31:21.990] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:31:21.991] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:31:21.991] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:31:21.991] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:31:21.991] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:31:21.992] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:31:21.992] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:31:21.992] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:31:21.992] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:31:21.993] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:31:21.994] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:31:21.994] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:31:21.994] [DEBUG] application - null
+[2014-12-16 22:31:21.995] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:31:21.995] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:31:21.996] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:31:21.996] [DEBUG] application - DBManager#open
+[2014-12-16 22:31:22.006] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:31:22.006] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:31:22.006] [DEBUG] application - DBManager#execute
+[2014-12-16 22:31:22.007] [DEBUG] application - [object Object]
+[2014-12-16 22:31:22.013] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:31:22.014] [DEBUG] application - DBManager#begin
+[2014-12-16 22:31:22.015] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:36:31.316] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:36:31.317] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:36:31.318] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:36:31.318] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:36:31.318] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:36:31.319] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:36:31.319] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:36:31.319] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:36:31.319] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:36:31.320] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:36:31.321] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:36:31.321] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:36:31.322] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:36:31.322] [DEBUG] application - null
+[2014-12-16 22:36:31.323] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:36:31.323] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:36:31.323] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:36:31.324] [DEBUG] application - DBManager#open
+[2014-12-16 22:36:31.336] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:36:31.337] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:36:31.337] [DEBUG] application - DBManager#execute
+[2014-12-16 22:36:31.338] [DEBUG] application - [object Object]
+[2014-12-16 22:36:31.342] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:36:31.343] [DEBUG] application - DBManager#begin
+[2014-12-16 22:36:31.344] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:37:01.736] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:37:01.737] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:37:01.738] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:37:01.738] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:37:01.738] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:37:01.738] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:37:01.739] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:37:01.739] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:37:01.739] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:37:01.739] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:37:01.741] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:37:01.741] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:37:01.741] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:37:01.741] [DEBUG] application - null
+[2014-12-16 22:37:01.742] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:37:01.742] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:37:01.742] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:37:01.742] [DEBUG] application - DBManager#open
+[2014-12-16 22:37:01.754] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:37:01.755] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:37:01.756] [DEBUG] application - DBManager#execute
+[2014-12-16 22:37:01.756] [DEBUG] application - [object Object]
+[2014-12-16 22:37:01.760] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:37:01.761] [DEBUG] application - DBManager#begin
+[2014-12-16 22:37:01.762] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:38:58.772] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:38:58.774] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:38:58.775] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:38:58.775] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:38:58.775] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:38:58.776] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:38:58.776] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:38:58.776] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:38:58.777] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:38:58.777] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:38:58.778] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:38:58.779] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:38:58.779] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:38:58.779] [DEBUG] application - null
+[2014-12-16 22:38:58.780] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:38:58.780] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:38:58.780] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:38:58.780] [DEBUG] application - DBManager#open
+[2014-12-16 22:38:58.793] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:38:58.794] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:38:58.794] [DEBUG] application - DBManager#execute
+[2014-12-16 22:38:58.794] [DEBUG] application - [object Object]
+[2014-12-16 22:38:58.798] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:38:58.799] [DEBUG] application - DBManager#begin
+[2014-12-16 22:38:58.800] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:43:47.141] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:43:47.142] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:43:47.143] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:43:47.143] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:43:47.144] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:43:47.144] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:43:47.144] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:43:47.144] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:43:47.145] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:43:47.145] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:43:47.147] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:43:47.147] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:43:47.147] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:43:47.147] [DEBUG] application - null
+[2014-12-16 22:43:47.148] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:43:47.148] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:43:47.149] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:43:47.149] [DEBUG] application - DBManager#open
+[2014-12-16 22:43:47.159] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:43:47.161] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:43:47.161] [DEBUG] application - DBManager#execute
+[2014-12-16 22:43:47.161] [DEBUG] application - [object Object]
+[2014-12-16 22:43:47.166] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:43:47.167] [DEBUG] application - DBManager#begin
+[2014-12-16 22:43:47.168] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:49:43.507] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:49:43.508] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:49:43.509] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:49:43.509] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:49:43.510] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:49:43.510] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:49:43.510] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:49:43.511] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:49:43.511] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:49:43.511] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:49:43.513] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:49:43.513] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:49:43.513] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:49:43.513] [DEBUG] application - null
+[2014-12-16 22:49:43.514] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:49:43.514] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:49:43.515] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:49:43.515] [DEBUG] application - DBManager#open
+[2014-12-16 22:49:43.526] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:49:43.527] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:49:43.527] [DEBUG] application - DBManager#execute
+[2014-12-16 22:49:43.528] [DEBUG] application - [object Object]
+[2014-12-16 22:49:43.532] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:49:43.533] [DEBUG] application - DBManager#begin
+[2014-12-16 22:49:43.535] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:49:43.535] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:49:43.535] [DEBUG] application - DBManager#execute
+[2014-12-16 22:51:04.158] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:51:04.160] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:51:04.161] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:51:04.161] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:51:04.161] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:51:04.162] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:51:04.162] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:51:04.162] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:51:04.162] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:51:04.163] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:51:04.164] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:51:04.164] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:51:04.165] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:51:04.165] [DEBUG] application - null
+[2014-12-16 22:51:04.166] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:51:04.166] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:51:04.167] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:51:04.167] [DEBUG] application - DBManager#open
+[2014-12-16 22:51:04.179] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:51:04.180] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:51:04.180] [DEBUG] application - DBManager#execute
+[2014-12-16 22:51:04.181] [DEBUG] application - [object Object]
+[2014-12-16 22:51:04.185] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:51:04.186] [DEBUG] application - DBManager#begin
+[2014-12-16 22:51:04.187] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:51:04.188] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:51:53.176] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:51:53.177] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:51:53.178] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:51:53.179] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:51:53.180] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:51:53.181] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:51:53.181] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:51:53.181] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:51:53.182] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:51:53.182] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:51:53.183] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:51:53.184] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:51:53.184] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:51:53.184] [DEBUG] application - null
+[2014-12-16 22:51:53.185] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:51:53.185] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:51:53.186] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:51:53.186] [DEBUG] application - DBManager#open
+[2014-12-16 22:51:53.199] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:51:53.200] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:51:53.200] [DEBUG] application - DBManager#execute
+[2014-12-16 22:51:53.200] [DEBUG] application - [object Object]
+[2014-12-16 22:51:53.205] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:51:53.207] [DEBUG] application - DBManager#begin
+[2014-12-16 22:51:53.208] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:51:53.208] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:51:53.208] [DEBUG] application - DBManager#execute
+[2014-12-16 22:51:53.208] [DEBUG] application - [object Object]
+[2014-12-16 22:52:48.774] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:52:48.775] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:52:48.775] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:52:48.776] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:52:48.776] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:52:48.776] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:52:48.776] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:52:48.777] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:52:48.777] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:52:48.777] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:52:48.778] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:52:48.779] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:52:48.779] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:52:48.779] [DEBUG] application - null
+[2014-12-16 22:52:48.780] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:52:48.780] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:52:48.780] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:52:48.781] [DEBUG] application - DBManager#open
+[2014-12-16 22:52:48.792] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:52:48.793] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:52:48.793] [DEBUG] application - DBManager#execute
+[2014-12-16 22:52:48.794] [DEBUG] application - [object Object]
+[2014-12-16 22:52:48.798] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:52:48.799] [DEBUG] application - DBManager#begin
+[2014-12-16 22:52:48.800] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:52:48.800] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:52:48.800] [DEBUG] application - DBManager#execute
+[2014-12-16 22:52:48.801] [DEBUG] application - [object Object]
+[2014-12-16 22:52:48.802] [DEBUG] application - DBManager#rollback
+[2014-12-16 22:52:48.802] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 22:52:48.802] [DEBUG] application - DBManager#execute
+[2014-12-16 22:52:48.803] [DEBUG] application - [object Object]
+[2014-12-16 22:52:48.803] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 22:52:48.803] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 22:52:48.804] [DEBUG] application - null
+[2014-12-16 22:52:48.804] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 22:52:48.805] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 22:52:48.806] [DEBUG] application - DBManager#close
+[2014-12-16 22:52:48.811] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 22:57:18.295] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:57:18.296] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:57:18.297] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:57:18.297] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:57:18.297] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:57:18.297] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:57:18.298] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:57:18.298] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:57:18.298] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:57:18.298] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:57:18.298] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:57:18.299] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:57:18.299] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:57:18.300] [DEBUG] application - null
+[2014-12-16 22:57:18.301] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:57:18.301] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:57:18.301] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:57:18.302] [DEBUG] application - DBManager#open
+[2014-12-16 22:57:18.312] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:57:18.312] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:57:18.312] [DEBUG] application - DBManager#execute
+[2014-12-16 22:57:18.312] [DEBUG] application - [object Object]
+[2014-12-16 22:57:18.317] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:57:18.318] [DEBUG] application - DBManager#begin
+[2014-12-16 22:57:18.319] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:57:18.319] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:57:18.320] [DEBUG] application - DBManager#execute
+[2014-12-16 22:57:18.320] [DEBUG] application - [object Object]
+[2014-12-16 22:57:18.321] [DEBUG] application - DBManager#rollback
+[2014-12-16 22:57:18.321] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 22:57:18.321] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 22:57:18.322] [DEBUG] application - userid: undefined
+[2014-12-16 22:57:18.322] [DEBUG] application - DBManager#execute
+[2014-12-16 22:57:18.322] [DEBUG] application - [object Object]
+[2014-12-16 22:57:18.323] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 22:57:18.323] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 22:57:18.323] [DEBUG] application - null
+[2014-12-16 22:57:18.323] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 22:57:18.324] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 22:57:18.325] [DEBUG] application - DBManager#close
+[2014-12-16 22:57:18.331] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 22:58:26.049] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:58:26.050] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:58:26.050] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:58:26.050] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:58:26.051] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:58:26.051] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:58:26.051] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:58:26.051] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:58:26.052] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:58:26.052] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:58:26.052] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:58:26.052] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:58:26.053] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:58:26.054] [DEBUG] application - null
+[2014-12-16 22:58:26.055] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:58:26.055] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:58:26.055] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:58:26.055] [DEBUG] application - DBManager#open
+[2014-12-16 22:58:26.065] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:58:26.066] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:58:26.066] [DEBUG] application - DBManager#execute
+[2014-12-16 22:58:26.067] [DEBUG] application - [object Object]
+[2014-12-16 22:58:26.071] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:58:26.072] [DEBUG] application - DBManager#begin
+[2014-12-16 22:58:26.073] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:58:26.073] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:58:26.073] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 22:58:26.074] [DEBUG] application - userid: undefined
+[2014-12-16 22:58:26.074] [DEBUG] application - DBManager#execute
+[2014-12-16 22:58:26.074] [DEBUG] application - [object Object]
+[2014-12-16 22:58:26.075] [DEBUG] application - DBManager#rollback
+[2014-12-16 22:58:26.075] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 22:58:26.076] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 22:58:26.076] [DEBUG] application - userid: undefined
+[2014-12-16 22:58:26.076] [DEBUG] application - DBManager#execute
+[2014-12-16 22:58:26.076] [DEBUG] application - [object Object]
+[2014-12-16 22:58:26.077] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 22:58:26.077] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 22:58:26.077] [DEBUG] application - null
+[2014-12-16 22:58:26.077] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 22:58:26.079] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 22:58:26.079] [DEBUG] application - DBManager#close
+[2014-12-16 22:58:26.086] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 22:59:42.520] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 22:59:42.522] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 22:59:42.522] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 22:59:42.522] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 22:59:42.522] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 22:59:42.522] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 22:59:42.523] [DEBUG] application - ResponseData#constructor
+[2014-12-16 22:59:42.523] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 22:59:42.523] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 22:59:42.523] [DEBUG] application - AuthManager#constructor
+[2014-12-16 22:59:42.523] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 22:59:42.523] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:59:42.525] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 22:59:42.525] [DEBUG] application - null
+[2014-12-16 22:59:42.526] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 22:59:42.526] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 22:59:42.526] [DEBUG] application - DBManager#constructor
+[2014-12-16 22:59:42.527] [DEBUG] application - DBManager#open
+[2014-12-16 22:59:42.537] [DEBUG] application - UserModel#constractor
+[2014-12-16 22:59:42.538] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 22:59:42.538] [DEBUG] application - DBManager#execute
+[2014-12-16 22:59:42.538] [DEBUG] application - [object Object]
+[2014-12-16 22:59:42.543] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 22:59:42.544] [DEBUG] application - DBManager#begin
+[2014-12-16 22:59:42.546] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 22:59:42.546] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 22:59:42.547] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 22:59:42.547] [DEBUG] application - userid: undefined
+[2014-12-16 22:59:42.547] [DEBUG] application - DBManager#execute
+[2014-12-16 22:59:42.547] [DEBUG] application - [object Object]
+[2014-12-16 22:59:42.549] [DEBUG] application - DBManager#rollback
+[2014-12-16 22:59:42.549] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 22:59:42.549] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 22:59:42.549] [DEBUG] application - userid: undefined
+[2014-12-16 22:59:42.549] [DEBUG] application - DBManager#execute
+[2014-12-16 22:59:42.550] [DEBUG] application - [object Object]
+[2014-12-16 22:59:42.550] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 22:59:42.550] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 22:59:42.551] [DEBUG] application - null
+[2014-12-16 22:59:42.551] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 22:59:42.552] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 22:59:42.552] [DEBUG] application - DBManager#close
+[2014-12-16 22:59:42.560] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:00:20.910] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:00:20.911] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:00:20.912] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:00:20.912] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:00:20.912] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:00:20.912] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:00:20.912] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:00:20.913] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:00:20.913] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:00:20.913] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:00:20.913] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:00:20.913] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:00:20.915] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:00:20.915] [DEBUG] application - null
+[2014-12-16 23:00:20.916] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:00:20.916] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:00:20.917] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:00:20.917] [DEBUG] application - DBManager#open
+[2014-12-16 23:00:20.927] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:00:20.927] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:00:20.928] [DEBUG] application - DBManager#execute
+[2014-12-16 23:00:20.928] [DEBUG] application - [object Object]
+[2014-12-16 23:00:20.932] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:00:20.933] [DEBUG] application - DBManager#begin
+[2014-12-16 23:00:20.935] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:00:20.935] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:00:20.935] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 23:00:20.935] [DEBUG] application - userid: user01
+[2014-12-16 23:00:20.935] [DEBUG] application - DBManager#execute
+[2014-12-16 23:00:20.935] [DEBUG] application - [object Object]
+[2014-12-16 23:00:20.937] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:00:20.937] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:00:20.937] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 23:00:20.937] [DEBUG] application - userid: user01
+[2014-12-16 23:00:20.937] [DEBUG] application - DBManager#execute
+[2014-12-16 23:00:20.937] [DEBUG] application - [object Object]
+[2014-12-16 23:00:20.938] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:00:20.938] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:00:20.938] [DEBUG] application - null
+[2014-12-16 23:00:20.938] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:00:20.940] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:00:20.940] [DEBUG] application - DBManager#close
+[2014-12-16 23:00:20.946] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:06:07.495] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:06:07.497] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:06:07.497] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:06:07.497] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:06:07.498] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:06:07.498] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:06:07.498] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:06:07.498] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:06:07.498] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:06:07.499] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:06:07.499] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:06:07.500] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:06:07.500] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:06:07.500] [DEBUG] application - null
+[2014-12-16 23:06:07.501] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:06:07.501] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:06:07.501] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:06:07.501] [DEBUG] application - DBManager#open
+[2014-12-16 23:06:07.511] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:06:07.512] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:06:07.512] [DEBUG] application - DBManager#execute
+[2014-12-16 23:06:07.517] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:06:07.518] [DEBUG] application - DBManager#begin
+[2014-12-16 23:06:07.519] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:06:07.520] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:06:07.520] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 23:06:07.520] [DEBUG] application - userid: user01
+[2014-12-16 23:06:49.113] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:06:49.114] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:06:49.115] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:06:49.115] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:06:49.115] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:06:49.116] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:06:49.116] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:06:49.116] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:06:49.116] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:06:49.116] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:06:49.117] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:06:49.118] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:06:49.118] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:06:49.118] [DEBUG] application - null
+[2014-12-16 23:06:49.119] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:06:49.120] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:06:49.120] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:06:49.120] [DEBUG] application - DBManager#open
+[2014-12-16 23:06:49.130] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:06:49.131] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:06:49.131] [DEBUG] application - DBManager#execute
+[2014-12-16 23:06:49.136] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:06:49.137] [DEBUG] application - DBManager#begin
+[2014-12-16 23:06:49.138] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:06:49.138] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:06:49.139] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 23:06:49.139] [DEBUG] application - userid: user01
+[2014-12-16 23:06:49.139] [DEBUG] application - DBManager#execute
+[2014-12-16 23:06:49.140] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:06:49.141] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:06:49.141] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 23:06:49.141] [DEBUG] application - userid: user01
+[2014-12-16 23:06:49.141] [DEBUG] application - DBManager#execute
+[2014-12-16 23:06:49.142] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:06:49.142] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:06:49.142] [DEBUG] application - null
+[2014-12-16 23:06:49.142] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:06:49.144] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:06:49.144] [DEBUG] application - DBManager#close
+[2014-12-16 23:06:49.150] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:06:49.152] [DEBUG] application - DutyTimeModel#setAttendanceTime err: Error: ERROR:  syntax error at end of input
+LINE 1: ...er_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+                                                                       ^
+
+[2014-12-16 23:09:14.524] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:09:14.527] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:09:14.527] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:09:14.527] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:09:14.528] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:09:14.529] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:09:14.529] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:09:14.529] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:09:14.529] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:09:14.529] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:09:14.530] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:09:14.531] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:09:14.531] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:09:14.532] [DEBUG] application - null
+[2014-12-16 23:09:14.532] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:09:14.533] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:09:14.533] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:09:14.534] [DEBUG] application - DBManager#open
+[2014-12-16 23:09:14.546] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:09:14.546] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:09:14.547] [DEBUG] application - DBManager#execute
+[2014-12-16 23:09:14.551] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:09:14.553] [DEBUG] application - DBManager#begin
+[2014-12-16 23:09:14.554] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:09:14.554] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:09:14.554] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 23:09:14.554] [DEBUG] application - userid: user01
+[2014-12-16 23:09:14.555] [DEBUG] application - DBManager#execute
+[2014-12-16 23:09:14.556] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:09:14.556] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:09:14.556] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 23:09:14.556] [DEBUG] application - userid: user01
+[2014-12-16 23:09:14.556] [DEBUG] application - DBManager#execute
+[2014-12-16 23:09:14.557] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:09:14.557] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:09:14.558] [DEBUG] application - null
+[2014-12-16 23:09:14.558] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:09:14.559] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:09:14.560] [DEBUG] application - DBManager#close
+[2014-12-16 23:09:14.566] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:09:14.568] [DEBUG] application - DutyTimeModel#setAttendanceTime err: Error: ERROR:  syntax error at end of input
+LINE 1: ...er_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+                                                                       ^
+
+[2014-12-16 23:11:57.275] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:11:57.276] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:11:57.277] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:11:57.277] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:11:57.277] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:11:57.277] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:11:57.278] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:11:57.278] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:11:57.278] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:11:57.278] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:11:57.278] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:11:57.280] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:11:57.280] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:11:57.280] [DEBUG] application - null
+[2014-12-16 23:11:57.281] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:11:57.281] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:11:57.282] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:11:57.282] [DEBUG] application - DBManager#open
+[2014-12-16 23:11:57.292] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:11:57.293] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:11:57.293] [DEBUG] application - DBManager#execute
+[2014-12-16 23:11:57.297] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:11:57.299] [DEBUG] application - DBManager#begin
+[2014-12-16 23:11:57.300] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:11:57.300] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:12:11.922] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:12:11.923] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:12:11.924] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:12:11.924] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:12:11.924] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:12:11.924] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:12:11.925] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:12:11.925] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:12:11.925] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:12:11.925] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:12:11.925] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:12:11.927] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:12:11.927] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:12:11.927] [DEBUG] application - null
+[2014-12-16 23:12:11.928] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:12:11.928] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:12:11.928] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:12:11.928] [DEBUG] application - DBManager#open
+[2014-12-16 23:12:11.939] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:12:11.939] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:12:11.940] [DEBUG] application - DBManager#execute
+[2014-12-16 23:12:11.946] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:12:11.948] [DEBUG] application - DBManager#begin
+[2014-12-16 23:12:11.949] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:12:11.950] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:12:11.950] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTimeFROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 23:12:11.950] [DEBUG] application - userid: user01
+[2014-12-16 23:12:11.950] [DEBUG] application - DBManager#execute
+[2014-12-16 23:12:11.952] [DEBUG] application - err: Error: ERROR:  syntax error at or near "t_duty_time"
+LINE 1: ... start_time as startTime, end_time as endTimeFROM t_duty_tim...
+                                                             ^
+
+[2014-12-16 23:12:11.952] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:12:11.953] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:12:11.953] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:12:11.953] [DEBUG] application - null
+[2014-12-16 23:12:11.954] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:12:11.955] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:12:11.955] [DEBUG] application - DBManager#close
+[2014-12-16 23:12:11.962] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:12:50.972] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:12:50.973] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:12:50.973] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:12:50.973] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:12:50.974] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:12:50.974] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:12:50.974] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:12:50.975] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:12:50.975] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:12:50.975] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:12:50.975] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:12:50.976] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:12:50.977] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:12:50.977] [DEBUG] application - null
+[2014-12-16 23:12:50.978] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:12:50.978] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:12:50.978] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:12:50.978] [DEBUG] application - DBManager#open
+[2014-12-16 23:12:50.988] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:12:50.989] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:12:50.989] [DEBUG] application - DBManager#execute
+[2014-12-16 23:12:50.993] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:12:50.995] [DEBUG] application - DBManager#begin
+[2014-12-16 23:12:50.996] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:12:50.996] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:12:50.996] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg = '0'
+[2014-12-16 23:12:50.996] [DEBUG] application - userid: user01
+[2014-12-16 23:12:50.997] [DEBUG] application - DBManager#execute
+[2014-12-16 23:12:50.998] [DEBUG] application - err: Error: ERROR:  syntax error at or near "delete_flg"
+LINE 1: ... WHERE user_id = $1AND work_day = CURRENT_DATEAND delete_flg...
+                                                             ^
+
+[2014-12-16 23:12:50.999] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:12:50.999] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:12:51.000] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:12:51.000] [DEBUG] application - null
+[2014-12-16 23:12:51.000] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:12:51.001] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:12:51.002] [DEBUG] application - DBManager#close
+[2014-12-16 23:12:51.007] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:13:25.351] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:13:25.352] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:13:25.353] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:13:25.353] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:13:25.353] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:13:25.353] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:13:25.353] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:13:25.354] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:13:25.354] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:13:25.354] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:13:25.354] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:13:25.356] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:13:25.356] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:13:25.356] [DEBUG] application - null
+[2014-12-16 23:13:25.357] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:13:25.357] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:13:25.357] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:13:25.358] [DEBUG] application - DBManager#open
+[2014-12-16 23:13:25.367] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:13:25.368] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:13:25.368] [DEBUG] application - DBManager#execute
+[2014-12-16 23:13:25.372] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:13:25.374] [DEBUG] application - DBManager#begin
+[2014-12-16 23:13:25.375] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:13:25.375] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:13:25.375] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:13:25.376] [DEBUG] application - userid: user01
+[2014-12-16 23:13:25.376] [DEBUG] application - DBManager#execute
+[2014-12-16 23:13:25.380] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:13:25.381] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+[2014-12-16 23:13:25.381] [DEBUG] application - userid: user01
+[2014-12-16 23:13:25.381] [DEBUG] application - DBManager#execute
+[2014-12-16 23:13:25.382] [DEBUG] application - DutyTimeModel#setAttendanceTime err: Error: ERROR:  syntax error at end of input
+LINE 1: ...er_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+                                                                       ^
+
+[2014-12-16 23:13:25.383] [DEBUG] application - err: Error: ERROR:  syntax error at end of input
+LINE 1: ...er_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1
+                                                                       ^
+
+[2014-12-16 23:13:25.383] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:13:25.384] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:13:25.384] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:13:25.384] [DEBUG] application - null
+[2014-12-16 23:13:25.384] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:13:25.386] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:13:25.386] [DEBUG] application - DBManager#close
+[2014-12-16 23:13:25.394] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:14:15.899] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:14:15.901] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:14:15.902] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:14:15.902] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:14:15.902] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:14:15.903] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:14:15.903] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:14:15.903] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:14:15.903] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:14:15.904] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:14:15.905] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:14:15.905] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:14:15.906] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:14:15.906] [DEBUG] application - null
+[2014-12-16 23:14:15.907] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:14:15.907] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:14:15.907] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:14:15.908] [DEBUG] application - DBManager#open
+[2014-12-16 23:14:15.918] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:14:15.918] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:14:15.918] [DEBUG] application - DBManager#execute
+[2014-12-16 23:14:15.923] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:14:15.924] [DEBUG] application - DBManager#begin
+[2014-12-16 23:14:15.926] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:14:15.926] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:14:15.926] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:14:15.926] [DEBUG] application - userid: user01
+[2014-12-16 23:14:15.927] [DEBUG] application - DBManager#execute
+[2014-12-16 23:14:15.928] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:14:15.929] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:14:15.929] [DEBUG] application - userid: user01
+[2014-12-16 23:14:15.929] [DEBUG] application - DBManager#execute
+[2014-12-16 23:14:15.931] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:21:00.965] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:21:00.966] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:21:00.967] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:21:00.967] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:21:00.967] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:21:00.968] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:21:00.968] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:21:00.968] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:21:00.968] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:21:00.970] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:21:00.970] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:21:00.970] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:21:00.970] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:21:00.970] [DEBUG] application - null
+[2014-12-16 23:21:00.971] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:21:00.971] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:21:00.971] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:21:00.971] [DEBUG] application - DBManager#open
+[2014-12-16 23:21:00.982] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:21:00.982] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:21:00.983] [DEBUG] application - DBManager#execute
+[2014-12-16 23:21:00.988] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:21:30.553] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:21:30.556] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:21:30.556] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:21:30.556] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:21:30.556] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:21:30.557] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:21:30.557] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:21:30.557] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:21:30.557] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:21:30.559] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:21:30.560] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:21:30.560] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:21:30.560] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:21:30.561] [DEBUG] application - null
+[2014-12-16 23:21:30.562] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:21:30.563] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:21:30.563] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:21:30.564] [DEBUG] application - DBManager#open
+[2014-12-16 23:21:30.577] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:21:30.578] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:21:30.578] [DEBUG] application - DBManager#execute
+[2014-12-16 23:21:30.583] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:21:30.584] [DEBUG] application - Transaction Begin
+[2014-12-16 23:21:30.585] [DEBUG] application - DBManager#begin
+[2014-12-16 23:21:30.586] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:21:30.586] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:21:30.586] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:21:30.586] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:21:30.586] [DEBUG] application - userid: user01
+[2014-12-16 23:21:30.587] [DEBUG] application - DBManager#execute
+[2014-12-16 23:21:30.588] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:21:30.589] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:21:30.589] [DEBUG] application - userid: user01
+[2014-12-16 23:21:30.589] [DEBUG] application - DBManager#execute
+[2014-12-16 23:21:30.590] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:23:30.722] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:23:30.724] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:23:30.724] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:23:30.724] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:23:30.724] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:23:30.725] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:23:30.725] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:23:30.725] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:23:30.725] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:23:30.727] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:23:30.727] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:23:30.727] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:23:30.727] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:23:30.728] [DEBUG] application - null
+[2014-12-16 23:23:30.729] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:23:30.729] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:23:30.729] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:23:30.729] [DEBUG] application - DBManager#open
+[2014-12-16 23:23:30.743] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:23:30.744] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:23:30.744] [DEBUG] application - DBManager#execute
+[2014-12-16 23:23:30.749] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:23:30.751] [DEBUG] application - Transaction Begin
+[2014-12-16 23:23:30.752] [DEBUG] application - DBManager#begin
+[2014-12-16 23:23:30.753] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:23:30.753] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:23:30.754] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:23:30.754] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:23:30.754] [DEBUG] application - userid: user01
+[2014-12-16 23:23:30.754] [DEBUG] application - DBManager#execute
+[2014-12-16 23:23:30.756] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:23:30.756] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:23:30.756] [DEBUG] application - userid: user01
+[2014-12-16 23:23:30.756] [DEBUG] application - DBManager#execute
+[2014-12-16 23:23:30.757] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:25:54.813] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:25:54.816] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:25:54.816] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:25:54.816] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:25:54.816] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:25:54.817] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:25:54.817] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:25:54.817] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:25:54.819] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:25:54.819] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:25:54.819] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:25:54.819] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:25:54.820] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:25:54.820] [DEBUG] application - null
+[2014-12-16 23:25:54.821] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:25:54.821] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:25:54.821] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:25:54.821] [DEBUG] application - DBManager#open
+[2014-12-16 23:25:54.850] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:25:54.851] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:25:54.852] [DEBUG] application - DBManager#execute
+[2014-12-16 23:25:54.858] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:25:54.860] [DEBUG] application - Transaction Begin
+[2014-12-16 23:25:54.860] [DEBUG] application - DBManager#begin
+[2014-12-16 23:25:54.861] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:25:54.862] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:25:54.862] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:25:54.862] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:25:54.862] [DEBUG] application - userid: user01
+[2014-12-16 23:25:54.862] [DEBUG] application - DBManager#execute
+[2014-12-16 23:25:54.865] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:25:54.865] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:25:54.866] [DEBUG] application - userid: user01
+[2014-12-16 23:25:54.868] [DEBUG] application - DBManager#execute
+[2014-12-16 23:25:54.870] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:27:03.479] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:27:03.480] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:27:03.480] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:27:03.480] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:27:03.480] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:27:03.481] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:27:03.481] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:27:03.481] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:27:03.481] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:27:03.482] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:27:03.482] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:27:03.482] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:27:03.482] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:27:03.485] [DEBUG] application - null
+[2014-12-16 23:27:03.485] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:27:03.485] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:27:03.485] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:27:03.485] [DEBUG] application - DBManager#open
+[2014-12-16 23:27:03.491] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:27:03.492] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:27:03.492] [DEBUG] application - DBManager#execute
+[2014-12-16 23:27:03.494] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:27:03.495] [DEBUG] application - Transaction Begin
+[2014-12-16 23:27:03.495] [DEBUG] application - DBManager#begin
+[2014-12-16 23:27:03.496] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:27:03.496] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:27:03.496] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:27:03.496] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:27:03.496] [DEBUG] application - userid: user01
+[2014-12-16 23:27:03.497] [DEBUG] application - DBManager#execute
+[2014-12-16 23:27:03.498] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:27:03.499] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:27:03.499] [DEBUG] application - userid: user01
+[2014-12-16 23:27:03.500] [DEBUG] application - DBManager#execute
+[2014-12-16 23:28:46.613] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:28:46.615] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:28:46.616] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:28:46.616] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:28:46.616] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:28:46.617] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:28:46.617] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:28:46.617] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:28:46.619] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:28:46.619] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:28:46.619] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:28:46.619] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:28:46.620] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:28:46.620] [DEBUG] application - null
+[2014-12-16 23:28:46.622] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:28:46.622] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:28:46.622] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:28:46.622] [DEBUG] application - DBManager#open
+[2014-12-16 23:28:46.636] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:28:46.637] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:28:46.638] [DEBUG] application - DBManager#execute
+[2014-12-16 23:28:46.643] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:28:46.644] [DEBUG] application - Transaction Begin
+[2014-12-16 23:28:46.645] [DEBUG] application - DBManager#begin
+[2014-12-16 23:28:46.646] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:28:46.646] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:28:46.646] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:28:46.646] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:28:46.647] [DEBUG] application - userid: user01
+[2014-12-16 23:28:46.647] [DEBUG] application - DBManager#execute
+[2014-12-16 23:28:46.648] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:28:46.648] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:28:46.649] [DEBUG] application - userid: user01
+[2014-12-16 23:28:46.649] [DEBUG] application - DBManager#execute
+[2014-12-16 23:28:46.651] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:29:41.564] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:29:41.565] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:29:41.565] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:29:41.565] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:29:41.566] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:29:41.566] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:29:41.566] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:29:41.567] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:29:41.569] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:29:41.570] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:29:41.570] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:29:41.570] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:29:41.570] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:29:41.571] [DEBUG] application - null
+[2014-12-16 23:29:41.572] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:29:41.572] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:29:41.572] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:29:41.573] [DEBUG] application - DBManager#open
+[2014-12-16 23:29:41.584] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:29:41.585] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:29:41.585] [DEBUG] application - DBManager#execute
+[2014-12-16 23:29:41.591] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:29:41.592] [DEBUG] application - Transaction Begin
+[2014-12-16 23:29:41.592] [DEBUG] application - DBManager#begin
+[2014-12-16 23:29:41.593] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:29:41.594] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:29:41.594] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:29:41.594] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:29:41.594] [DEBUG] application - userid: user01
+[2014-12-16 23:29:41.594] [DEBUG] application - DBManager#execute
+[2014-12-16 23:29:41.596] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:29:41.596] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:29:41.596] [DEBUG] application - userid: user01
+[2014-12-16 23:29:41.597] [DEBUG] application - DBManager#execute
+[2014-12-16 23:29:41.599] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:33:49.037] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:33:49.039] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:33:49.039] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:33:49.039] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:33:49.039] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:33:49.040] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:33:49.040] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:33:49.040] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:33:49.041] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:33:49.042] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:33:49.042] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:33:49.042] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:33:49.042] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:33:49.042] [DEBUG] application - null
+[2014-12-16 23:33:49.043] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:33:49.044] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:33:49.044] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:33:49.044] [DEBUG] application - DBManager#open
+[2014-12-16 23:33:49.055] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:33:49.056] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:33:49.057] [DEBUG] application - DBManager#execute
+[2014-12-16 23:33:49.061] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:33:49.063] [DEBUG] application - Transaction Begin
+[2014-12-16 23:33:49.064] [DEBUG] application - DBManager#begin
+[2014-12-16 23:33:49.066] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:33:49.066] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:33:49.067] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:33:49.067] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:33:49.068] [DEBUG] application - userid: user01
+[2014-12-16 23:33:49.068] [DEBUG] application - DBManager#execute
+[2014-12-16 23:33:49.070] [DEBUG] application - DutyTimeModel#_insertAttendanceTime
+[2014-12-16 23:33:49.071] [DEBUG] application - sql: INSERT INTO t_duty_time(  user_id , work_day , start_time, create_user_id, update_user_id) VALUES (  $1, CURRENT_DATE, CURRENT_TIMESTAMP, $1, $1)
+[2014-12-16 23:33:49.071] [DEBUG] application - userid: user01
+[2014-12-16 23:33:49.071] [DEBUG] application - DBManager#execute
+[2014-12-16 23:33:49.073] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:33:49.074] [DEBUG] application - Commit
+[2014-12-16 23:33:49.074] [DEBUG] application - DBManager#commit
+[2014-12-16 23:33:49.076] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:33:49.076] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:33:49.076] [DEBUG] application - null
+[2014-12-16 23:33:49.076] [DEBUG] application - { header: { errorcode: '', message: '' }, body: null }
+[2014-12-16 23:33:49.089] [DEBUG] application - [attendance-time] httpStatus: 200, response: [object Object]
+[2014-12-16 23:33:49.090] [DEBUG] application - DBManager#close
+[2014-12-16 23:33:49.108] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 200 52 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:34:27.779] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:34:27.779] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:34:27.779] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:34:27.779] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:34:27.780] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:34:27.780] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:34:27.780] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:34:27.780] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:34:27.780] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:34:27.781] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:34:27.781] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:34:27.781] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:34:27.781] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:34:27.781] [DEBUG] application - null
+[2014-12-16 23:34:27.782] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:34:27.784] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:34:27.784] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:34:27.785] [DEBUG] application - DBManager#open
+[2014-12-16 23:34:27.791] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:34:27.791] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:34:27.791] [DEBUG] application - DBManager#execute
+[2014-12-16 23:34:27.794] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:34:27.795] [DEBUG] application - Transaction Begin
+[2014-12-16 23:34:27.795] [DEBUG] application - DBManager#begin
+[2014-12-16 23:34:27.796] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:34:27.796] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:34:27.796] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:34:27.797] [DEBUG] application - sql: SELECT   user_id as userId, work_day as workDay, start_time as startTime, end_time as endTime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:34:27.797] [DEBUG] application - userid: user01
+[2014-12-16 23:34:27.797] [DEBUG] application - DBManager#execute
+[2014-12-16 23:34:27.799] [DEBUG] application - err: [object Object]
+[2014-12-16 23:34:27.799] [DEBUG] application - Rollback
+[2014-12-16 23:34:27.800] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:34:27.800] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:34:27.800] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:34:27.801] [DEBUG] application - null
+[2014-12-16 23:34:27.802] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:34:27.802] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:34:27.802] [DEBUG] application - DBManager#close
+[2014-12-16 23:34:27.803] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:39:39.913] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:39:39.915] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:39:39.915] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:39:39.915] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:39:39.916] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:39:39.916] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:39:39.916] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:39:39.916] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:39:39.917] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:39:39.917] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:39:39.917] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:39:39.917] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:39:39.917] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:39:39.918] [DEBUG] application - null
+[2014-12-16 23:39:39.919] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:39:39.920] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:39:39.920] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:39:39.920] [DEBUG] application - DBManager#open
+[2014-12-16 23:39:39.930] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:39:39.930] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:39:39.931] [DEBUG] application - DBManager#execute
+[2014-12-16 23:39:39.935] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:39:39.937] [DEBUG] application - Transaction Begin
+[2014-12-16 23:39:39.937] [DEBUG] application - DBManager#begin
+[2014-12-16 23:39:39.938] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:39:39.938] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:39:39.939] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:39:39.939] [DEBUG] application - sql: SELECT   user_id as userid, work_day as workday, start_time as starttime, end_time as endtime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:39:39.939] [DEBUG] application - userid: user01
+[2014-12-16 23:39:39.939] [DEBUG] application - DBManager#execute
+[2014-12-16 23:39:39.942] [DEBUG] application - DutyTimeModel#setAttendanceTime err: Tue Dec 16 2014 00:00:00 GMT+0900 (JST)
+[2014-12-16 23:39:39.942] [DEBUG] application - err: Tue Dec 16 2014 00:00:00 GMT+0900 (JST)
+[2014-12-16 23:39:39.942] [DEBUG] application - Rollback
+[2014-12-16 23:39:39.942] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:39:39.943] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:39:39.943] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:39:39.944] [DEBUG] application - null
+[2014-12-16 23:39:39.944] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:39:39.945] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:39:39.945] [DEBUG] application - DBManager#close
+[2014-12-16 23:39:39.952] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:40:43.037] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:40:43.039] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:40:43.039] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:40:43.039] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:40:43.040] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:40:43.040] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:40:43.040] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:40:43.040] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:40:43.041] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:40:43.041] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:40:43.041] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:40:43.041] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:40:43.041] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:40:43.042] [DEBUG] application - null
+[2014-12-16 23:40:43.044] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:40:43.044] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:40:43.044] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:40:43.044] [DEBUG] application - DBManager#open
+[2014-12-16 23:40:43.054] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:40:43.055] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:40:43.055] [DEBUG] application - DBManager#execute
+[2014-12-16 23:40:43.060] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:40:43.061] [DEBUG] application - Transaction Begin
+[2014-12-16 23:40:43.061] [DEBUG] application - DBManager#begin
+[2014-12-16 23:40:43.062] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:40:43.063] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:40:43.063] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:40:43.063] [DEBUG] application - sql: SELECT   user_id as userid, work_day as workday, start_time as starttime, end_time as endtime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:40:43.063] [DEBUG] application - userid: user01
+[2014-12-16 23:40:43.063] [DEBUG] application - DBManager#execute
+[2014-12-16 23:40:43.066] [DEBUG] application - DutyTimeModel#_updateAttendanceTime
+[2014-12-16 23:40:43.066] [DEBUG] application - sql: UPDATE t_duty_time SET   start_time = CURRENT_TIMESTAMP , update_user_id = $1 , update_datetime = CURRENT_TIMESTAMP WHERE user_id = $1 AND work_day = CURRENT_DATE
+[2014-12-16 23:40:43.066] [DEBUG] application - userid: user01
+[2014-12-16 23:40:43.066] [DEBUG] application - DBManager#execute
+[2014-12-16 23:40:43.069] [DEBUG] application - DutyTimeModel#setAttendanceTime err: Error: ERROR:  inconsistent types deduced for parameter $1
+LINE 1: ...start_time = CURRENT_TIMESTAMP , update_user_id = $1 , updat...
+                                                             ^
+DETAIL:  text versus character varying
+
+[2014-12-16 23:40:43.069] [DEBUG] application - err: Error: ERROR:  inconsistent types deduced for parameter $1
+LINE 1: ...start_time = CURRENT_TIMESTAMP , update_user_id = $1 , updat...
+                                                             ^
+DETAIL:  text versus character varying
+
+[2014-12-16 23:40:43.069] [DEBUG] application - Rollback
+[2014-12-16 23:40:43.070] [DEBUG] application - DBManager#rollback
+[2014-12-16 23:40:43.070] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:40:43.070] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:40:43.070] [DEBUG] application - null
+[2014-12-16 23:40:43.071] [DEBUG] application - { header: { errorcode: 'SYS0001', message: 'システムエラー' },
+  body: null }
+[2014-12-16 23:40:43.072] [DEBUG] application - [attendance-time] httpStatus: 500, response: [object Object]
+[2014-12-16 23:40:43.072] [DEBUG] application - DBManager#close
+[2014-12-16 23:40:43.078] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 500 80 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
+[2014-12-16 23:47:07.568] [INFO] application - [router - attendance-time] called /attendance_time
+[2014-12-16 23:47:07.570] [DEBUG] application - LogicFactory#constructor
+[2014-12-16 23:47:07.570] [DEBUG] application - LogicFactory#makeLogic
+[2014-12-16 23:47:07.570] [DEBUG] application - AttendanceTimeLogic#constructor
+[2014-12-16 23:47:07.570] [DEBUG] application - BaseLogic#constructor
+[2014-12-16 23:47:07.571] [DEBUG] application - BaseLogic#logicExecute
+[2014-12-16 23:47:07.571] [DEBUG] application - ResponseData#constructor
+[2014-12-16 23:47:07.571] [DEBUG] application - AttendanceTimeLogic#validate
+[2014-12-16 23:47:07.571] [DEBUG] application - BaseLogic#getAuthManager
+[2014-12-16 23:47:07.572] [DEBUG] application - AuthManager#constructor
+[2014-12-16 23:47:07.572] [DEBUG] application - AuthManager#getAccessToken
+[2014-12-16 23:47:07.572] [DEBUG] application - Authorization: Bearer bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:47:07.572] [DEBUG] application - accessToken: bfc6e733242c999142add29665e8f090c451c1501021a8e8892d401ad87f955313ef34d2f1a267bc24740ee919ea8d9683d95d1867d5d1641c6d00016fa9f91e
+[2014-12-16 23:47:07.573] [DEBUG] application - null
+[2014-12-16 23:47:07.575] [DEBUG] application - AttendanceTimeLogic#execute
+[2014-12-16 23:47:07.575] [DEBUG] application - BaseLogic#getDBManager
+[2014-12-16 23:47:07.575] [DEBUG] application - DBManager#constructor
+[2014-12-16 23:47:07.575] [DEBUG] application - DBManager#open
+[2014-12-16 23:47:07.586] [DEBUG] application - UserModel#constractor
+[2014-12-16 23:47:07.586] [DEBUG] application - UserModel#getUserByAccessToken
+[2014-12-16 23:47:07.587] [DEBUG] application - DBManager#execute
+[2014-12-16 23:47:07.591] [DEBUG] application - DutyTimeModel#constractor
+[2014-12-16 23:47:07.592] [DEBUG] application - Transaction Begin
+[2014-12-16 23:47:07.593] [DEBUG] application - DBManager#begin
+[2014-12-16 23:47:07.594] [DEBUG] application - Set AttendanceTime
+[2014-12-16 23:47:07.594] [DEBUG] application - DutyTimeModel#setAttendanceTime
+[2014-12-16 23:47:07.594] [DEBUG] application - DutyTimeModel#_getTodayData
+[2014-12-16 23:47:07.594] [DEBUG] application - sql: SELECT   user_id as userid, work_day as workday, start_time as starttime, end_time as endtime FROM t_duty_time WHERE user_id = $1 AND work_day = CURRENT_DATE AND delete_flg = '0'
+[2014-12-16 23:47:07.594] [DEBUG] application - userid: user01
+[2014-12-16 23:47:07.595] [DEBUG] application - DBManager#execute
+[2014-12-16 23:47:07.597] [DEBUG] application - DutyTimeModel#_updateAttendanceTime
+[2014-12-16 23:47:07.597] [DEBUG] application - sql: UPDATE t_duty_time SET   start_time = CURRENT_TIMESTAMP , update_user_id = $1 , update_datetime = CURRENT_TIMESTAMP WHERE user_id = $2 AND work_day = CURRENT_DATE
+[2014-12-16 23:47:07.597] [DEBUG] application - userid: user01
+[2014-12-16 23:47:07.598] [DEBUG] application - DBManager#execute
+[2014-12-16 23:47:07.599] [DEBUG] application - DutyTimeModel#setAttendanceTime err: null
+[2014-12-16 23:47:07.599] [DEBUG] application - Commit
+[2014-12-16 23:47:07.599] [DEBUG] application - DBManager#commit
+[2014-12-16 23:47:07.601] [DEBUG] application - passed BaseLogic#execute
+[2014-12-16 23:47:07.601] [DEBUG] application - ResponseData#createResponseData
+[2014-12-16 23:47:07.602] [DEBUG] application - null
+[2014-12-16 23:47:07.602] [DEBUG] application - { header: { errorcode: '', message: '' }, body: null }
+[2014-12-16 23:47:07.603] [DEBUG] application - [attendance-time] httpStatus: 200, response: [object Object]
+[2014-12-16 23:47:07.604] [DEBUG] application - DBManager#close
+[2014-12-16 23:47:07.616] [INFO] application - 127.0.0.1 - - "POST /api/1.0/attendance_time HTTP/1.1" 200 52 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.122 Safari/537.36"
