@@ -20,7 +20,7 @@ db:
   configure:
     user: "postgres"
     port: 5432
-    database: "study-db"
+    database: "study_db"
     host: "localhost"
     password: "postgres"
 # Redis設定
@@ -28,3 +28,7 @@ redis:
   configure:
     port: 6379
     host: "localhost"
+# SSL設定
+ssl:
+  rsafile: "../../../.ssh/key-pair/development.rsa"
+  crtfile: "../../../.ssh/key-pair/development.crt"

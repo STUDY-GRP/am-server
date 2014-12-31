@@ -1,13 +1,25 @@
 #!/usr/bin/env node
 // var debug = require('debug')('am-server');
-Config = require('config');
+var https  = require('https');
+var fs     = require('fs');
+var Config = require('config');
 
-var debug = console.log 
+var debug = console.log
 require('coffee-script/register');
 var app = require('../app');
 
+var options = {
+  key: fs.readFileSync(Config.ssl.rsafile),
+  cert: fs.readFileSync(Config.ssl.crtfile)
+};
+
 app.set('port', process.env.PORT || Config.server.port);
 
-var server = app.listen(app.get('port'), function() {
-  debug('Express server listening on port ' + server.address().port);
+https.createServer(options, app).listen(app.get('port'), function() {
+	debug('Express server listening on port ' + app.get('port'));
+	debug('Protocol is HTTPS...')
 });
+
+// var server = app.listen(app.get('port'), function() {
+//   debug('Express server listening on port ' + server.address().port);
+// });
