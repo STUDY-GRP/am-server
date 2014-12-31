@@ -1,0 +1,34 @@
+# サーバー設定
+server:
+  port:     3003
+# ログ出力設定
+log:
+  configure:
+    appenders:
+      -
+        type: "dateFile"
+        category: "application"
+        filename: "log/am-server-app.log"
+        pattern : "-yyyy-MM-dd"  
+      -
+        type: "console"  
+    levels:
+      application: "DEBUG"
+    replaceConsole: true
+# PosgreSQL DB設定
+db:
+  configure:
+    user: "postgres"
+    port: 5432
+    database: "study_db"
+    host: "localhost"
+    password: "postgres"
+# Redis設定
+redis:
+  configure:
+    port: 6379
+    host: "localhost"
+# SSL設定
+ssl:
+  rsafile: "../../../.ssh/key-pair/development.rsa"
+  crtfile: "../../../.ssh/key-pair/development.crt"
