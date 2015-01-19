@@ -184,13 +184,18 @@ function MyController($scope, $resource) {
     // POST
     var url = baseURL + "login";
     //var Contents = $resource("./data/login");
-    var Contents = $resource("./data/login.json");
-      //str1="11";
-      content = Contents.get({"memId" : str1 ,"memPw" : str2} ,function (){
+    //var Contents = $resource("./data/login.json");
+    var Contents = $resource('./data/login.json',{},{
+      login:{method:'GET', headers:{'Authorization':'Basic ' + btoa( str1 + ':' + str2)}}});
+      //content = Contents.get({"memId" : btoa(str1) ,"memPw" : btoa(str2)} ,function (){
+    var myModule = angular.module("MyApp", []);
+      
+      content = Contents.login({"memId" : btoa(str1) ,"memPw" : btoa(str2)} ,function (u, getResponseHeaders){
       //content = Contents.save({"memId" : str1,"memPw" : str2 } ,function (){
         console.log("JSON START");
-        
-        if(content.state!="0000"){
+        console.log(getResponseHeaders("Set-Cookie"));
+        var sessionId = getResponseHeaders("Set-Cookie");
+        if(sessionId == null){
           $scope.MSG = "認証エラーです";
         }else{
           $scope.myName = content.info.name;
