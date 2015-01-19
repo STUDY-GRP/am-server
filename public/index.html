@@ -170,6 +170,7 @@
     <!-- Latest compiled and minified CSS -->
 
 <script>
+var baseURL="https://ec2-54-65-77-17.ap-northeast-1.compute.amazonaws.com:3000/admin/api/1.0/";
 angular.module("MyApp", ["ngResource"]);
 
 function MyController($scope, $resource) {
@@ -178,9 +179,12 @@ function MyController($scope, $resource) {
   
   // query でコレクションを取得
   $scope.logonChk = function(str1,str2) {
-
-    //var Contents = $resource("./data/Logon");
-    var Contents = $resource("./data/Logon.json");
+    //クライアント側は管理ユーザーIDとパスワード「:」で繋ぎBase64エンコードしたものをAuthorizationヘッダに付加してリクエストを送信する。
+    //サーバー側は認証を行いレスポンスとしてCookieにセッションIDを設定して返す。
+    // POST
+    var url = baseURL + "login";
+    //var Contents = $resource("./data/login");
+    var Contents = $resource("./data/login.json");
       //str1="11";
       content = Contents.get({"memId" : str1 ,"memPw" : str2} ,function (){
       //content = Contents.save({"memId" : str1,"memPw" : str2 } ,function (){
@@ -198,9 +202,21 @@ function MyController($scope, $resource) {
         }
         console.log("JSON END");
       });
-
   };
+  //ログアウトAPI
+  //管理機能からログアウトする。
+  //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
+  //https://[hostname]/admin/api/1.0/logout
+  //GET
+  
+  
   $scope.selectMem = function(memId,memName){
+    //勤怠取得API
+    //ユーザーと年月を入力して勤怠情報を取得する
+    //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
+    //Request URL https://[hostname]/admin/api/1.0/attendance/[userid]/[yyyy]/[MM]
+    //GET
+    var url = baseURL + "";
     var Contents = $resource("./data/getMemKintai.json");
     content = Contents.get({"memId" : memId } ,function (){
       console.log("selectMem START");
@@ -216,6 +232,9 @@ function MyController($scope, $resource) {
      console.log($scope.actTab);
   };
   $scope.addMem = function(addId,addName,addPW){
+    //
+    //addMemberInfo
+    //
     var Contents = $resource("./data/addMem.json");
     content = Contents.get({"memId" : addId ,"memPw" : addPW,"memName":addName} ,function (){
       console.log("addMem START");
@@ -235,6 +254,12 @@ function init(){
   login.style.display="inline";
 }
 function loadMemberList($scope, $resource){
+  //ユーザー検索API
+  //ユーザー情報を検索する。
+  //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
+  //Request URL https://[hostname]/admin/api/1.0/search?limit=<取得上限>&offset=<開始位置>
+  //GET
+  var url = baseURL + "search";
   var contents = $resource("./data/memberList.json");
   content = contents.get(function (){
     console.log("loadMemberList START");
@@ -250,6 +275,16 @@ function loadMemberList($scope, $resource){
 }
 
 function addMemberInfo(memId, memName, memPw){
+  //ユーザー登録API
+  //一般ユーザーを登録する。
+  //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
+  //Request URL https://[hostname]/admin/api/1.0/user
+  // POST
+  //  "userid": "user31" 6文字　半角英数字
+  //, "username": "テストユーザー３１"　２０文字
+  //, "password": "password"　8～16文字
+  //, "repassword": "password"
+  var url = baseURL + "user";
   var contents = $resource("./data/memberList.json");
   content = contents.get(function (){
     console.log("JSON START");
