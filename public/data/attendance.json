@@ -1,0 +1,22 @@
+{
+    "header": {
+        "errorcode": "",
+        "message": ""
+    },
+    "body": {
+        "year": 2014,
+        "month": 11,
+        "list": [
+            {
+                "workday": "2014-11-04",
+                "starttime": "09:00",
+                "endtime": "18:00"
+            },
+            {
+                "workday": "2014-11-28",
+                "starttime": "09:00",
+                "endtime": "18:00"
+            }
+        ]
+    }
+}

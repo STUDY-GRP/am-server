@@ -1,0 +1,41 @@
+{
+    "header": {
+        "errorcode": "",
+        "message": ""
+    },
+    "body": {
+        "count": "31",
+        "result": [
+            {
+                "userid": "user01",
+                "username": "テストユーザー０１",
+                "adminflg": "0"
+            },
+            {
+                "userid": "user02",
+                "username": "テストユーザー０２",
+                "adminflg": "0"
+            },
+            {
+                "userid": "user03",
+                "username": "テストユーザー０３",
+                "adminflg": "0"
+            },
+            {
+                "userid": "user04",
+                "username": "テストユーザー０４",
+                "adminflg": "0"
+            },
+            {
+                "userid": "user05",
+                "username": "テストユーザー０５",
+                "adminflg": "0"
+            },
+            {
+                "userid": "user06",
+                "username": "テストユーザー０６",
+                "adminflg": "0"
+            }
+        ]
+    }
+}
