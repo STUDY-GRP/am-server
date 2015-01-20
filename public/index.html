@@ -181,7 +181,7 @@
     <link rel="stylesheet" type="text/css" href="./css/animation.css">
     -->
     
-    <script src="http://code.angularjs.org/1.2.3/angular-animate.min.js"></script>
+    <!-- <script src="http://code.angularjs.org/1.2.3/angular-animate.min.js"></script> -->
 <!--
     <script src="./js/index.js"></script>
 -->
@@ -190,7 +190,7 @@
 <script>
 //***************************************************************************************************
 // kojima-bizさん、よろしく★↓
-var baseURL="./data/"; 
+var baseURL="https://localhost:3003/admin/api/1.0/"; 
 //***************************************************************************************************
 
 angular.module("MyApp", ["ngResource"]);
@@ -206,7 +206,7 @@ function MyController($scope, $resource) {
     //サーバー側は認証を行いレスポンスとしてCookieにセッションIDを設定して返す。
     // POST
     var url = baseURL + "login"; //★
-    var httpMethod = "GET";    // 開発はGETでやってる。本番時にはPOSTに変更。★
+    var httpMethod = "POST";    // 開発はGETでやってる。本番時にはPOSTに変更。★
     var Contents = $resource(url,{},{login:{method:httpMethod , headers:{'Authorization':'Basic ' + btoa( str1 + ':' + str2)}}});
       
     content = Contents.login({"memId" : btoa(str1) ,"memPw" : btoa(str2)} ,function (u, getResponseHeaders){
@@ -326,7 +326,7 @@ function loadMemberList($scope, $resource){
   //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
   //Request URL https://[hostname]/admin/api/1.0/search?limit=<取得上限>&offset=<開始位置>
   //GET
-  var url = baseURL + "search";
+  var url = baseURL + "user/search";
   //var Contents = $resource(url,{},{search:{method:'GET' , headers:{'Set-Cookie':sessionId}}});
   var Contents = $resource(url,{},{search:{method:'GET',headers:{} }});
   
