@@ -215,6 +215,8 @@ function MyController($scope, $resource) {
       menu.style.display ="none";
       menu.style.display="inline";
       loadMemberList($scope, $resource);
+      var memName = "あなた"; //★ログイン時に取得した値に置き換える
+      kintaiSet(str1,"","",memName,$scope,$resource);
       console.log("JSON END");
     },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
   };
@@ -238,50 +240,9 @@ function MyController($scope, $resource) {
   
   $scope.selectMem = function(memId,year,month,memName){
     $scope.MSG = "";
-    console.log("selectMem: "+memId+","+year+","+month+","+memName);
-
-
-    //勤怠取得API
-    //ユーザーと年月を入力して勤怠情報を取得する
-    //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
-    //Request URL https://[hostname]/admin/api/1.0/attendance/[userid]/[yyyy]/[MM]
-    //GET
-    var url = baseURL + "attendance";
-    if(year ==""){
-      console.log("defaultYear");
-      year=new Date().getYear()+1900;
-      console.log("defaultMonth");
-      month=new Date().getMonth()+1;
-    }else{
-      var d = new Date();
-      d.setYear(year);
-      d.setMonth(month-1);
-      year = d.getYear()+1900;
-      month = d.getMonth()+1;
-    }
-    
-    if(month<10){
-      month = "0"+month;
-    }
-    
-    $scope.kintaiId    = memId;
-    $scope.kintaiName  = memName;
-    $scope.kintaiYear  = year;
-    $scope.kintaiMonth = month;
-    $scope.kintaiList  = null;
-
-    console.log("attendance: "+year+"/"+month);
-    url+="/"+memId+"/"+year+"/"+month;
-    var Contents = $resource(url,{},{attendance:{method:'GET',headers:{} }});
-    content = Contents.attendance({} ,function (u, getResponseHeaders){
-
-    //content = Contents.get({"memId" : memId } ,function (){
-      console.log("selectMem START");
-      loadMemberKintai($scope,content,memName);
-      console.log("selectMem END");
-    },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
-     $scope.actTab='Kanri';
-     console.log($scope.actTab);
+    kintaiSet(memId,year,month,memName,$scope,$resource);
+    $scope.actTab='Kanri';
+    console.log($scope.actTab);
   };
   $scope.addMem = function(addId,addName,addPW,addRePW){
     $scope.MSG = "";
@@ -345,6 +306,50 @@ function loadMemberKintai($scope,content,name){
   $scope.kintaiList  = content.body.list;
   
   console.log("loadMemberKintai END");
+}
+function kintaiSet(memId,year,month,memName,$scope,$resource){
+
+    console.log("selectMem: "+memId+","+year+","+month+","+memName);
+
+
+    //勤怠取得API
+    //ユーザーと年月を入力して勤怠情報を取得する
+    //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
+    //Request URL https://[hostname]/admin/api/1.0/attendance/[userid]/[yyyy]/[MM]
+    //GET
+    var url = baseURL + "attendance";
+    if(year ==""){
+      console.log("defaultYear");
+      year=new Date().getYear()+1900;
+      console.log("defaultMonth");
+      month=new Date().getMonth()+1;
+    }else{
+      var d = new Date();
+      d.setYear(year);
+      d.setMonth(month-1);
+      year = d.getYear()+1900;
+      month = d.getMonth()+1;
+    }
+    
+    if(month<10){
+      month = "0"+month;
+    }
+    
+    $scope.kintaiId    = memId;
+    $scope.kintaiName  = memName;
+    $scope.kintaiYear  = year;
+    $scope.kintaiMonth = month;
+    $scope.kintaiList  = null;
+
+    console.log("attendance: "+year+"/"+month);
+    url+="/"+memId+"/"+year+"/"+month;
+    var Contents = $resource(url,{},{attendance:{method:'GET',headers:{} }});
+    content = Contents.attendance({} ,function (u, getResponseHeaders){
+      console.log("selectMem START");
+      loadMemberKintai($scope,content,memName);
+      console.log("selectMem END");
+    },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
+
 }
 function errorCallbackFunction(httpResponse,$scope){
   console.log("HTTP STATUS:" + httpResponse.status);
