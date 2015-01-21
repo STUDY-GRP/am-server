@@ -192,7 +192,6 @@
 var baseURL="./data/"; //★本番環境では本番用URLに変更する
 // var baseURL="https://localhost:3003/admin/api/1.0/"; 
 var httpMethod = "POST";    // 更新処理用メソッド。本番時にはPOSTに変更。
-var kaihatsuFlg=true;       //本番時はfalseにしてください。★
 //***************************************************************************************************
 
 angular.module("MyApp", ["ngResource"]);
@@ -212,20 +211,10 @@ function MyController($scope, $resource) {
     console.log("Contents Create end");
     content = Contents.login({"memId" : btoa(str1) ,"memPw" : btoa(str2)} ,function (u, getResponseHeaders){
       console.log("JSON START");
-      console.log(getResponseHeaders("Set-Cookie"));
-      var sessionId = getResponseHeaders("Set-Cookie");
-      if(kaihatsuFlg){
-        sessionId = "testsession"; //開発用ダミーセッションID設定
-      }
-      if(sessionId == null){
-        $scope.MSG = "認証エラーです";
-      }else{
-        //$scope.myName = content.info.name;
-        login.style.display="none";
-        menu.style.display ="none";
-        menu.style.display="inline";
-        loadMemberList($scope, $resource);
-      }
+      login.style.display="none";
+      menu.style.display ="none";
+      menu.style.display="inline";
+      loadMemberList($scope, $resource);
       console.log("JSON END");
     },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
   };
@@ -241,7 +230,7 @@ function MyController($scope, $resource) {
     var Contents = $resource(url,{},{logout:{method:'GET',headers:{} }});
     content = Contents.logout({} ,function (u, getResponseHeaders){
         console.log("---logout---");
-        sessionId="";
+        //sessionId="";
       },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
     $scope.actTab='Touroku';
     init();
@@ -271,9 +260,9 @@ function MyController($scope, $resource) {
       month = d.getMonth()+1;
     }
     
-    //if(month.length==1){
-    //  month = "0"+month;
-    //}
+    if(month<10){
+      month = "0"+month;
+    }
     
     $scope.kintaiId    = memId;
     $scope.kintaiName  = memName;
@@ -360,6 +349,7 @@ function loadMemberKintai($scope,content,name){
 function errorCallbackFunction(httpResponse,$scope){
   console.log("HTTP STATUS:" + httpResponse.status);
   $scope.MSG = "エラーが発生しました (status:"+httpResponse.status+")";
+  
 }
 </script>
 
