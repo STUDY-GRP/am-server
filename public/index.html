@@ -19,7 +19,7 @@
       <section id="login" class="container check-element animate-show" ng-show="login" ng-hide="logon">
           <div class="row">
             <div  class="col-sm-1"></div>
-            <div  class="col-sm-10"><span color="red">{{MSG}}</span></div>
+            <div  class="col-sm-10"><font color="red">{{MSG}}</font></div>
             <div  class="col-sm-1"></div>
           </div>
         <div class="row">
@@ -191,6 +191,8 @@
 //***************************************************************************************************
 var baseURL="./data/"; 
 // var baseURL="https://localhost:3003/admin/api/1.0/"; 
+var httpMethod = "POST";    // 更新処理用メソッド。本番時にはPOSTに変更。★
+var kaihatsuFlg=true;       //本番時はfalseにしてください。★
 //***************************************************************************************************
 
 angular.module("MyApp", ["ngResource"]);
@@ -205,15 +207,16 @@ function MyController($scope, $resource) {
     //クライアント側は管理ユーザーIDとパスワード「:」で繋ぎBase64エンコードしたものをAuthorizationヘッダに付加してリクエストを送信する。
     //サーバー側は認証を行いレスポンスとしてCookieにセッションIDを設定して返す。
     // POST
-    var url = baseURL + "login"; //★
-    var httpMethod = "POST";    // 開発はGETでやってる。本番時にはPOSTに変更。★
+    var url = baseURL + "login";
     var Contents = $resource(url,{},{login:{method:httpMethod , headers:{'Authorization':'Basic ' + btoa( str1 + ':' + str2)}}});
-      
+    console.log("Contents Create end");
     content = Contents.login({"memId" : btoa(str1) ,"memPw" : btoa(str2)} ,function (u, getResponseHeaders){
       console.log("JSON START");
       console.log(getResponseHeaders("Set-Cookie"));
       var sessionId = getResponseHeaders("Set-Cookie");
-      sessionId = "testsession"; //★
+      if(kaihatsuFlg){
+        sessionId = "testsession"; //開発用ダミーセッションID設定
+      }
       if(sessionId == null){
         $scope.MSG = "認証エラーです";
       }else{
@@ -224,7 +227,7 @@ function MyController($scope, $resource) {
         loadMemberList($scope, $resource);
       }
       console.log("JSON END");
-    });
+    },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
   };
   //ログアウトAPI
   //管理機能からログアウトする。
@@ -255,7 +258,6 @@ function MyController($scope, $resource) {
     //Request URL https://[hostname]/admin/api/1.0/attendance/[userid]/[yyyy]/[MM]
     //GET
     var url = baseURL + "attendance";
-    //var Contents = $resource("./data/attendance.json");
     if(year ==""){
       console.log("defaultYear");
       year=new Date().getYear()+1900;
@@ -269,6 +271,10 @@ function MyController($scope, $resource) {
       month = d.getMonth()+1;
     }
     
+    //if(month.length==1){
+    //  month = "0"+month;
+    //}
+    
     $scope.kintaiId    = memId;
     $scope.kintaiName  = memName;
     $scope.kintaiYear  = year;
@@ -276,7 +282,7 @@ function MyController($scope, $resource) {
     $scope.kintaiList  = null;
 
     console.log("attendance: "+year+"/"+month);
-    //url+="/"+memId+"/"+year+"/"+month; //★
+    url+="/"+memId+"/"+year+"/"+month; //★
     var Contents = $resource(url,{},{attendance:{method:'GET',headers:{} }});
     content = Contents.attendance({} ,function (u, getResponseHeaders){
 
@@ -303,8 +309,8 @@ function MyController($scope, $resource) {
     //, "password": "password"　8～16文字
     //, "repassword": "password"
     var url = baseURL + "user";
-    //var Contents = $resource(url,{},{user:{method:'POST' , headers:{'Set-Cookie':sessionId}}});
-    var Contents = $resource(url,{},{user:{method:'GET',headers:{} }});
+    //var Contents = $resource(url,{},{user:{method:'httpMethod' , headers:{'Set-Cookie':sessionId}}}); //sessionの明示的セット用
+    var Contents = $resource(url,{},{user:{method:httpMethod,headers:{} }});
         
     content = Contents.user({"userid" : addId ,"username" : addName, "password" : addPW, "repassword": addRePW} ,function (u, getResponseHeaders){
       console.log("JSON START");
@@ -327,7 +333,7 @@ function loadMemberList($scope, $resource){
   //Request URL https://[hostname]/admin/api/1.0/search?limit=<取得上限>&offset=<開始位置>
   //GET
   var url = baseURL + "user/search";
-  //var Contents = $resource(url,{},{search:{method:'GET' , headers:{'Set-Cookie':sessionId}}});
+  //var Contents = $resource(url,{},{search:{method:'GET' , headers:{'Set-Cookie':sessionId}}}); //sessionの明示的セット用
   var Contents = $resource(url,{},{search:{method:'GET',headers:{} }});
   
   content = Contents.search({"limit" : "100" ,"offset" : "0"} ,function (u, getResponseHeaders){
