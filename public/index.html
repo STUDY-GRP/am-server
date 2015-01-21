@@ -282,7 +282,7 @@ function MyController($scope, $resource) {
     $scope.kintaiList  = null;
 
     console.log("attendance: "+year+"/"+month);
-    url+="/"+memId+"/"+year+"/"+month; //★
+    url+="/"+memId+"/"+year+"/"+month;
     var Contents = $resource(url,{},{attendance:{method:'GET',headers:{} }});
     content = Contents.attendance({} ,function (u, getResponseHeaders){
 
