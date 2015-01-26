@@ -107,5 +107,6 @@ class LoginLogic extends BaseLogic
           # エラーでない場合、セッションIDをクライントへ返す
           data =
             sessionid: sessionid
+            username: user.userName
           return callback RESULTCD.OK, data
 module.exports = LoginLogic

@@ -30,5 +30,6 @@ redis:
     host: "localhost"
 # SSL設定
 ssl:
+  usessl: true
   rsafile: "../../../.ssh/key-pair/development.rsa"
   crtfile: "../../../.ssh/key-pair/development.crt"
