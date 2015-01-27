@@ -191,7 +191,7 @@
 //***************************************************************************************************
 var baseURL="./data/"; //★本番環境では本番用URLに変更する
 // var baseURL="https://localhost:3003/admin/api/1.0/"; 
-var httpMethod = "POST";    // 更新処理用メソッド。本番時にはPOSTに変更。
+var httpMethod = "POST";    // 更新処理用メソッド。
 //***************************************************************************************************
 
 angular.module("MyApp", ["ngResource"]);
@@ -200,7 +200,6 @@ function MyController($scope, $resource) {
   // API の URL を指定してモデルを作成
   console.log("MyController START");
   
-  // query でコレクションを取得
   $scope.logonChk = function(str1,str2) {
     $scope.MSG = "";
     //クライアント側は管理ユーザーIDとパスワード「:」で繋ぎBase64エンコードしたものをAuthorizationヘッダに付加してリクエストを送信する。
@@ -211,20 +210,28 @@ function MyController($scope, $resource) {
     console.log("Contents Create end");
     content = Contents.login({"memId" : btoa(str1) ,"memPw" : btoa(str2)} ,function (u, getResponseHeaders){
       console.log("JSON START");
+      $scope.myName=content.body.username;
       login.style.display="none";
       menu.style.display ="none";
       menu.style.display="inline";
-      loadMemberList($scope, $resource);
-      var memName = "あなた"; //★ログイン時に取得した値に置き換える
-      kintaiSet(str1,"","",memName,$scope,$resource);
+      
+      //loadMemberListの後にKitaiSetを呼び出す為、リストに設定。
+      //同時呼び出しすると$resourceが上書きされるので…
+      var funcInfos = [
+        {
+          func:kintaiSet,
+          args:[str1,"","",content.body.username,$scope,$resource]
+        }
+      ];
+      
+      loadMemberList($scope, $resource,funcInfos);
+      
       console.log("JSON END");
     },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
   };
   //ログアウトAPI
   //管理機能からログアウトする。
   //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
-  //https://[hostname]/admin/api/1.0/logout
-  //GET
   $scope.logout = function(){
     $scope.MSG = "";
     console.log("Logout START");
@@ -232,7 +239,6 @@ function MyController($scope, $resource) {
     var Contents = $resource(url,{},{logout:{method:'GET',headers:{} }});
     content = Contents.logout({} ,function (u, getResponseHeaders){
         console.log("---logout---");
-        //sessionId="";
       },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
     $scope.actTab='Touroku';
     init();
@@ -246,20 +252,10 @@ function MyController($scope, $resource) {
   };
   $scope.addMem = function(addId,addName,addPW,addRePW){
     $scope.MSG = "";
-    //
-    //addMemberInfo
-    //
     //ユーザー登録API
     //一般ユーザーを登録する。
     //この時、セッションIDはCookieとしてリクエストヘッダに含んで送信する。
-    //Request URL https://[hostname]/admin/api/1.0/user
-    // POST
-    //  "userid": "user31" 6文字　半角英数字
-    //, "username": "テストユーザー３１"　２０文字
-    //, "password": "password"　8～16文字
-    //, "repassword": "password"
     var url = baseURL + "user";
-    //var Contents = $resource(url,{},{user:{method:'httpMethod' , headers:{'Set-Cookie':sessionId}}}); //sessionの明示的セット用
     var Contents = $resource(url,{},{user:{method:httpMethod,headers:{} }});
         
     content = Contents.user({"userid" : addId ,"username" : addName, "password" : addPW, "repassword": addRePW} ,function (u, getResponseHeaders){
@@ -275,7 +271,8 @@ function init(){
   menu.style.display ="none";
   login.style.display="inline";
 }
-function loadMemberList($scope, $resource){
+
+function loadMemberList($scope, $resource,funcInfos){
   $scope.MSG = "";
   //ユーザー検索API
   //ユーザー情報を検索する。
@@ -289,11 +286,10 @@ function loadMemberList($scope, $resource){
   content = Contents.search({"limit" : "100" ,"offset" : "0"} ,function (u, getResponseHeaders){
   //content = contents.get(function (){
     console.log("loadMemberList START");
-    
-    console.log("Status Code:" + getResponseHeaders("Status Code"));
-    console.log(content.body.count);
     $scope.memList = content.body.result;
     console.log("loadMemberList END");
+    
+    continueFunc(funcInfos);
 
   },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
 }
@@ -307,9 +303,9 @@ function loadMemberKintai($scope,content,name){
   
   console.log("loadMemberKintai END");
 }
-function kintaiSet(memId,year,month,memName,$scope,$resource){
+function kintaiSet(memId,year,month,memName,$scope,$resource,funcInfos){
 
-    console.log("selectMem: "+memId+","+year+","+month+","+memName);
+    console.log("kintaiSet: "+memId+","+year+","+month+","+memName);
 
 
     //勤怠取得API
@@ -348,9 +344,25 @@ function kintaiSet(memId,year,month,memName,$scope,$resource){
       console.log("selectMem START");
       loadMemberKintai($scope,content,memName);
       console.log("selectMem END");
+
+      continueFunc(funcInfos);
+
     },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
 
 }
+
+function continueFunc(funcInfos){
+  if(funcInfos!=null && funcInfos.length > 0){
+    var funcInfo = funcInfos.shift();
+    funcInfo.args.push(funcInfos);
+    console.log("continueFunc:"+funcInfo.func.name);
+    console.log("continueFunc:"+funcInfo.args[0]);
+    console.log("continueFunc:"+funcInfo.args[1]);
+    funcInfo.func.apply(this, funcInfo.args);
+  }
+}
+
+
 function errorCallbackFunction(httpResponse,$scope){
   console.log("HTTP STATUS:" + httpResponse.status);
   $scope.MSG = "エラーが発生しました (status:"+httpResponse.status+")";

@@ -3,5 +3,5 @@
         "errorcode": "",
         "message": ""
     },
-    "body": null
+    "body": {username: "テスト太郎"}
 }
