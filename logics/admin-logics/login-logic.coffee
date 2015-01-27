@@ -105,7 +105,9 @@ class LoginLogic extends BaseLogic
             @_logger.error "err: #{err}"
             return callback RESULTCD.FAILED, null
           # エラーでない場合、セッションIDをクライントへ返す
+          @_logger.debug user
           data =
             sessionid: sessionid
+            username: user.username
           return callback RESULTCD.OK, data
 module.exports = LoginLogic

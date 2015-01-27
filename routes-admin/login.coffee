@@ -22,8 +22,8 @@ router.post "/", (req, res) ->
       # HTTPステータスが200の場合、セッションIDをcookieに設定して返す
       # sessionid = [sessionid]
       res.cookie 'sessionid', resData.body.sessionid, { path: '/', secure: false, httpOnly: true  }
-      # セッションIDはcookieをして返すのでbodyの情報をクリアして置く
-      resData.body = null
+      # セッションIDはcookieをして返すのでbodyの再作成
+      resData.body = {username: resData.body.username}
     return res.status(httpStatus).send resData
 
 module.exports = router

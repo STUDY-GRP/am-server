@@ -50,6 +50,7 @@ class UserModel
     @_logger.debug 'UserModel#getUser'
     sql = "SELECT "
     sql += "  user_id as userId"
+    sql += ", user_name as userName"
     sql += ", password as password"
     sql += ", admin_flg as adminFlg "
     sql += "FROM m_user "
