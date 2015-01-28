@@ -194,6 +194,10 @@ var baseURL="./data/"; //★本番環境では本番用URLに変更する
 var httpMethod = "POST";    // 更新処理用メソッド。
 //***************************************************************************************************
 
+function makeFuncInfo(func,args){
+  return {func:func,args:args};
+}
+
 angular.module("MyApp", ["ngResource"]);
 
 function MyController($scope, $resource) {
@@ -217,12 +221,8 @@ function MyController($scope, $resource) {
       
       //loadMemberListの後にKitaiSetを呼び出す為、リストに設定。
       //同時呼び出しすると$resourceが上書きされるので…
-      var funcInfos = [
-        {
-          func:kintaiSet,
-          args:[str1,"","",content.body.username,$scope,$resource]
-        }
-      ];
+      var funcInfo = makeFuncInfo(kintaiSet, [str1,"","",content.body.username,$scope,$resource]);
+      var funcInfos = [funcInfo];
       
       loadMemberList($scope, $resource,funcInfos);
       
