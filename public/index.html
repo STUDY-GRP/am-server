@@ -107,7 +107,7 @@
           </div>
           <div class="row">
             <div  class="col-sm-1"></div>
-            <div  class="col-sm-10"><input type="text" id="SERCH_ID" ng-model="searchWord" placeholder="検索ワード"></div>
+            <div  class="col-sm-10"><input type="text" id="SERCH_ID" ng-model="searchWord" placeholder="検索ワード">　<button class="btn btn-primary btn-sm" ng-model="showMemBtn" ng-click="showMem()">refresh</button></div>
             <div  class="col-sm-1"></div>
           </div>
           <div class="row">
@@ -142,10 +142,11 @@
               <div>
                 　[{{kintaiName}} ]
                 　　　　　　{{kintaiYear}}-{{kintaiMonth}}　
-                    <button class="btn btn-success btn-sm" ng-click="selectMem(kintaiId,kintaiYear-1, kintaiMonth,kintaiName)">≪</button>
+                    <button class="btn btn-success btn-sm" ng-click="selectMem(kintaiId,kintaiYear-1, kintaiMonth,  kintaiName)">≪</button>
                     <button class="btn btn-success btn-sm" ng-click="selectMem(kintaiId,kintaiYear,   kintaiMonth-1,kintaiName)">＜</button>
                     <button class="btn btn-success btn-sm" ng-click="selectMem(kintaiId,kintaiYear,   kintaiMonth+1,kintaiName)">＞</button>
-                    <button class="btn btn-success btn-sm" ng-click="selectMem(kintaiId,kintaiYear+1, kintaiMonth,kintaiName)">≫</button>
+                    <button class="btn btn-success btn-sm" ng-click="selectMem(kintaiId,kintaiYear+1, kintaiMonth,  kintaiName)">≫</button>
+                　　<button class="btn btn-primary btn-sm" ng-click="selectMem(kintaiId,kintaiYear,   kintaiMonth,  kintaiName)">refresh</button>
               </div>
               <hr>
               <div class="table-responsive">
@@ -263,6 +264,9 @@ function MyController($scope, $resource) {
         loadMemberList($scope, $resource);
       console.log("JSON END");
     },function (httpResponse){errorCallbackFunction(httpResponse,$scope);});
+  };
+  $scope.showMem = function(){
+    loadMemberList($scope, $resource);
   };
 
 };
