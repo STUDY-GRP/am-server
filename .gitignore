@@ -1,9 +1,11 @@
 # 無視ファイルリスト
 # ファイル
 .DS_Store
+/config/local.yaml
 
 # ディレクトリ
 /node_modules
+/doc
 
 # ワイルドカード
 *.log

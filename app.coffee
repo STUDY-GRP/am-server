@@ -12,6 +12,7 @@ routes         = require("./routes-cli/index")
 auth           = require("./routes-cli/auth")
 attendanceTime = require("./routes-cli/attendance-time")
 quiitingTime   = require("./routes-cli/quitting-time")
+test           = require("./routes-cli/test")
 # Routing - Administrator
 login          = require("./routes-admin/login")
 logout         = require("./routes-admin/logout")
@@ -43,11 +44,20 @@ app.use cookieParser()
 app.use express.static(path.join(__dirname, "public"))
 app.use Log4js.connectLogger(logger)
 
+app.use (req, res, next) ->
+  logger.debug "Initialize Request!!"
+  res.header "Content-Type", "application/json;charset=UTF-8"
+  # キャッシュ関連
+  res.header "Pragma", "no-cache"
+  res.header "Cache-Control", "no-cache, must-revalidate"
+  next()
+
 # Routing
 app.use "/", routes
 app.use "/api/1.0/auth", auth
 app.use "/api/1.0/attendance_time", attendanceTime
 app.use "/api/1.0/quitting_time", quiitingTime
+app.use "/api/1.0/test", test
 app.use "/admin/api/1.0/login", login
 app.use "/admin/api/1.0/logout", logout
 app.use "/admin/api/1.0/user", users
@@ -61,9 +71,7 @@ app.use (req, res, next) ->
   next err
   return
 
-
 # error handlers
-
 # development error handler
 # will print stacktrace
 if app.get("env") is "development"
@@ -72,7 +80,6 @@ if app.get("env") is "development"
     res.render "error",
       message: err.message
       error: err
-
     return
 
 
@@ -83,7 +90,11 @@ app.use (err, req, res, next) ->
   res.render "error",
     message: err.message
     error: {}
-
   return
+
+# uncaughtExceptionをログ出力
+process.on 'uncaughtException', (err)->
+  logger.error "Caught exception:#{err}"
+  logger.debug err.stack
 
 module.exports = app

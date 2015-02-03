@@ -51,7 +51,7 @@ class AuthLogic extends BaseLogic
         @_logger.debug 'Password is empty.'
         return callback RESULTCD.PE0002
       @_logger.debug 'AuthLogic#validate is success.'
-      # エラーがない場合S
+      # エラーがない場合
       @_loginInfo = loginInfo
       return callback null
 

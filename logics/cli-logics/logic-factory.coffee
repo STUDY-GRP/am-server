@@ -1,6 +1,7 @@
 AuthLogic           = require './auth-logic'
 AttendanceTimeLogic = require './attendance-time-logic'
 QuittingTimeLogic   = require './quitting-time-logic'
+TestLogic           = require './test-logic'
 
 # クライアント機能ロジックファクトリクラス
 #
@@ -24,6 +25,6 @@ class LogicFactory
       when 'auth-logic' then new AuthLogic(@_logger)
       when 'attendance-time-logic' then new AttendanceTimeLogic(@_logger)
       when 'quitting-time-logic' then new QuittingTimeLogic(@_logger)
-
+      when 'test-logic' then new TestLogic(@_logger)
 module.exports = LogicFactory
 			
